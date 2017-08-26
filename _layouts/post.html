@@ -1,0 +1,41 @@
+---
+layout: legal
+---
+
+<div class="post">
+	<div class="post__back">
+    	<a href="/">&lt;-- home</a>
+    </div>
+    <div class="post__title">
+    	<h1>{{ page.title }}</h1>
+    </div>
+    <div class="post__date">
+    	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
+    </div>
+    {% if tags_content %}<div class="post__meta">
+    	<p>{{ tags_content }}</p>
+    </div>{% endif %}
+    <div class="post__content">
+
+<!-- START OF POST CONTENT -->
+
+{{ content }}
+
+<!-- END OF POST CONTENT -->
+
+        <style>
+            .sidebar-cover{
+                background: #9e9e9e url("{{ page.cover }}") no-repeat center top;
+                background-size: cover;
+            }
+        </style>
+        <br>
+    </div>
+    <hr class="codebreak">
+    <p>Please feel free to <a href="/">contact me</a> about any corrections and general feedback.</p>
+    <footer>
+        Texts and images are licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license, unless otherwise noted in the page. Attribution to "Michał Daniel, www.michaldaniel.eu". <a href="/">[contact information]</a>
+    </footer>
+    <section id="isso-thread"></section>
+
+</div>

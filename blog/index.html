@@ -1,0 +1,24 @@
+---
+layout: legal
+---
+
+<div class="blog">
+	<a href="/">&lt;-- home</a>
+    <p>Welcome to my blog. It's updated irregularly and very personal, there is little to no cohesion to discussed topics. Please feel free to <a href="/">contact me</a> about any corrections and general feedback.</p>
+    <p>I hope you manage to find something interesting.</p>
+    <footer>
+    Texts and images are licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license, unless otherwise noted in the page.
+    Attribution to "Michał Daniel, www.michaldaniel.eu". <a href="/">[contact information]</a>
+    </footer>
+
+    <h2>Blog posts:</h2>
+    <table>
+        <tbody>
+            <!-- Blog post elements -->{% for post in site.posts %}
+            <tr>
+                <td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
+                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+            </tr>{% endfor %}
+        </tbody>
+    </table>
+</div>

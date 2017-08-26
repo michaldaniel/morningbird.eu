@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+
+<div class="header">
+    <h1>Hi, I'm Micha<span style="font-size:95%;">ł</span> Daniel</h1>
+    <p>a software developer currently living in <a href="https://osm.org/go/0L0Npn_U--?m=">Kraków, Poland</a>. I'm a free software advocate concerned about issues of privacy and security.</p>
+    <table>
+        <tbody>
+            <!-- Contact elements -->{% for item in site.data.contact %}
+            <tr>
+                <td>{{ item.title}}:</td>
+                <td><a href="{{ item.url }}">{{ item.name }}</a></td>
+            </tr>{% endfor %}
+            <tr>
+                <td>Other:</td>
+                <td class="social">
+                    <!-- Social elements -->{% for item in site.data.social %}
+                    <a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="pgp-key">
+    <p><span id="toggle_switch">+ Show PGP public key block </span><a href ="assets/download/contact-at-michaldaniel-eu.key">[Download]</a></p>
+    <blockquote id="toggle_content" class="collapsed thin">
+        -----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
+        Version: GnuPG v1<br/>
+        <br/>
+        mQENBFhRms8BCACgZMq4D+SfMNGvsOxeOL1JUTj+LmG5eWECDMcIdJqDmtnjaUAD<br/>
+        4oj72iAxJBB1B4u7pFkYQesTSP1xJpGLE2ZtyzW3raktIsxRts3N+KaEvBoiXCeh<br/>
+        Lyq34n4/HRkdosUZZldVUDTcRKBzU2PcfqREqlhux8aRfHdGe6JmnuZ0llXDSm+w<br/>
+        kJqVR+IJU4MjrNPISsaDaaYwc4ZoEAC+HhfHa1Tr2phcVscH3NsxF0Hw1dZNL5yF<br/>
+        8TU+zvEXWp4ncQ6ywGbjeDxu1Km7ZXNTwWkdRm7VLEK7p3yy3MFK/0bFpq5SGxvQ<br/>
+        eTe5S/pPmgbkU8un5FwhWQ/gDUjz3u3ZAgVbABEBAAG0KE1pY2hhxYIgRGFuaWVs<br/>
+        IDxjb250YWN0QG1pY2hhbGRhbmllbC5ldT6JATgEEwECACIFAlhRms8CGwMGCwkI<br/>
+        BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEOJXCmzuWUqbiHMH/A0amZu50hxE1BBK<br/>
+        c3+vn8BjzX6b2nW0TDesLfMPpRighQCgicVMrG7B/RnMCfM91LOoiUHrjwtPuDUe<br/>
+        8cVX7YrVwg0oFa8IeXmAj0c8JtQ/P8DNpVXQK2MUqHPtLLkFVy+OUbeoUnfdxEZT<br/>
+        9eQhma24gZIARHMhoFww3hlBdVD6KlkJ+6AaiG/qXN6OFwoNqYhZgfPWoDh/Mrdt<br/>
+        /HTL3UPG6oxe4fmHdkPQ8otZsJk96fi1Ccv9M2KP4AWDHgaDDWlPyM/IMum4LK9F<br/>
+        zqEGcjfcQSrw1wgK5bT1/hEYK9s6fBITK+cLRVsy5P9gllNWsXrrNMIm7B4fLC3o<br/>
+        G5QyKiG5AQ0EWFGazwEIAMiO9iOBJ3mahzrE3keaojC0QlKH0wcIcPOKPuq0bJuM<br/>
+        P1gbeKJ7lLKhyIcgbaZRCAnT74crx3F/+mi/n5Cq/USe6WV1VU5yAaQR479mRpqZ<br/>
+        7FaoefLQgJ+sbHRFTmAmhHlmYQKrusXhnM3KNyqhWdxO/OLTaImSZsNu1KdrzPpQ<br/>
+        NoqUJnvisL5Iqrev4KrJDvJd6RHey/eiRGniVSO3rdS8ChQ2BJBXavVohb4I+xXJ<br/>
+        6nkMihJ8Edig/uPIGUjriCw2Q4dQ+96L42kYUDpwxzJJyqkEF/aRHKRgTPrPCV8V<br/>
+        6m/PrcGdpK5UWYstnqIAMiDNjLLTEQLncYx3dtcCGu8AEQEAAYkBHwQYAQIACQUC<br/>
+        WFGazwIbDAAKCRDiVwps7llKm+m4B/0Syr8ANRwinymyHR0elzJ69epk8D+VnMnZ<br/>
+        OCh0bD7eT7JvtpoCga0UUaHhsL0zg50GaGmjDstHdQtNNoVk+08/BoKezLtcCZQW<br/>
+        Zu9zSj3/Y1OWhRrWqwob47mC3BzLu4q3NifhTts/ooPTHgTiBM4bp8zHDVF0wWpR<br/>
+        +lgWttmoz6ipFwwIpEuXtJZSZX1MbZ+SAIEkIkqtzvqLiB4BKbLFVIgkkFNZ70md<br/>
+        x8xZIl5oNUr+h9igu0iGxGaaXFLNaM/oDeJ6cv/hJ6JaW7PplbPASwx6vDPzt7//<br/>
+        mhXYpH2XDkflKzjorI82auU9MzWBxRqgrn5Hwq/nBk4v6SWQncw2<br/>
+        =IX5q<br/>
+        -----END PGP PUBLIC KEY BLOCK-----
+    </blockquote>
+    <script type="text/javascript" src="assets/js/toggle.js?v=2.0"></script>
+    <script type="text/javascript">
+        // Add a click event to run the mainNavToggle function
+        document.getElementById('toggle_switch').addEventListener('click', toggle_ToggleSwitch);
+    </script>
+</div>
+
+<div class="experience">
+    <h2>Experience</h2>
+    <p>You can <a href ="assets/download/curriculum-vitae.pdf">download my CV</a> or just visit my <a href="https://www.linkedin.com/in/michalpiotrdaniel">Linkedin page</a>.</p>
+    <table>
+        <tbody>
+            <!-- Employment elements -->{% for item in site.data.employment %}
+            <tr>
+                <td class="grey">{{ item.year }}</td>
+                <td><a href="{{ item.url }}">{{ item.company }}</a></td>
+                <td>{{ item.position }}</td>
+            </tr>{% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="projects">
+    <h2>Projects</h2>
+    <table>
+        <tbody>
+            <!-- Project elements -->{% for item in site.data.projects %}
+            <tr>
+                <td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
+                <td>{{ item.description }}</td>
+            </tr>{% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="blog">
+    <h2>Blog posts:</h2>
+<p><a href="/blog">Blog updates</a> are irregular and there is little to no cohesion to discussed topics. Please feel free to contact me about any corrections and general feedback.</p>
+    <table>
+        <tbody>
+            <!-- Blog post elements -->{% for post in site.posts %}
+            <tr>
+                <td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
+                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+            </tr>{% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- START OF FOOTER -->
+
+<hr class="codebreak">
+<div id="cookie_warning" class="collapsed thin">
+    <div class="cookie_message">
+        This website uses cookies. Read more in <a href="/privacy">[Privacy Policy]</a> and <a href="/privacy/cookies">[Cookie Policy]</a>
+    </div>
+    <div class="cookie_close" id="warning_close">
+        &#10006;
+    </div>
+    <div class="clear"></div>
+</div>
+<footer>
+    <p><div class="icon">&#x1F4DD;</div> <a href="/privacy/javascript" rel="jslicense">[JavaScript code license information]</a></p>
+    <p><div class="icon">&#x1F512;</div> <a href="/privacy">[Privacy Policy]</a></p>
+    <p><div class="icon">&#x1f36a;</div> <a href="/privacy/cookies">[Cookie Policy]</a></p>
+</footer>
+
+<!-- END OF FOOTER -->
+
+
+
