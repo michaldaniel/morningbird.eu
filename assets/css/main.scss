@@ -148,48 +148,6 @@ hr {
     white-space: nowrap;
 }
 
-.sidebar-cover {
-    background: $color-light-grey url("/assets/img/left-bar.png") no-repeat center top;
-	background-size: cover;
-}
-
-.sidebar {
-    position: fixed;
-    height: 100%;
-	width: 170px;
-	@media screen and (max-width: $br) {
-		width: 15px;
-	}
-}
-
-.static {
-	pointer-events: none;
-	z-index: 1000;
-	background-image: url("/assets/img/static.png");
-	background-repeat: all;
-	background-position: 0px 0px;
-
-	animation-name: Static;
-	animation-duration: 0.5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: steps(32);
-
-	box-shadow: inset 0px 0px 10em rgba(0,0,0,0.4);
-}
-
-.static-wide {
-	pointer-events: none;
-	z-index: 1000;
-	background-image: url("/assets/img/static-wide.png");
-	background-repeat: all;
-	background-position: 0px 0px;
-
-	animation-name: Static;
-	animation-duration: 0.2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: steps(32);
-}
-
 @keyframes Static {
 	0% { background-position: 0px 0px; }
 	100% { background-position: 0px 32px; }
@@ -199,12 +157,41 @@ hr {
    	max-width: 600px;
     width: auto;
 	padding: 20px 40px;
-	margin-left: 170px;
+	margin-left: auto;
+	margin-right: auto;
 	@media screen and (max-width: $br) {
         max-width: 100%;
 		padding: 20px 25px;
 		margin-left: 15px;
 	}
+}
+
+.logo {
+    text-align: center;
+
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        border: none;
+    }
+    
+    #logo-on-hover {
+        display: none;
+    }   
+    
+    &:hover img[id="logo"] {
+        display: none;
+    }
+    
+    &:hover img[id="logo-on-hover"] {
+        display: inline !important;
+    }
 }
 
 .header, .javascript {
@@ -225,6 +212,13 @@ hr {
 		:last-child::after {
 			content: "";
 		}
+	}
+	
+	h1 {
+	    font-size: 350%;
+	    text-align: center;
+	    margin-bottom: 80px;
+	    margin-top: 0px;
 	}
 }
 
