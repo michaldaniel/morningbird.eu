@@ -1,0 +1,25 @@
+html {
+    color: #424242;
+    background-color: #fefefe;
+    font-family: serif;
+}
+
+body {
+
+}
+
+.bg {
+    background: url(hello.gif);
+    background-repeat: repeat;
+	width: 95%;
+    position: fixed;
+    left: 2.5%;
+	top: 5%;
+    display: block;
+    height: 90%;
+    outline: 10px solid black;
+}
+
+a.bg {
+	display: block;
+}

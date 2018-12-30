@@ -1,0 +1,67 @@
+html {
+    
+	background: url(bg.gif);
+	background-repeat: repeat;;
+	height: 100%;
+    width: 100%;
+	align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+	color: #fefefe;
+    font-family: 'Inconsolata', monospace;
+	animation: chroab 400ms ease-in both;
+	letter-spacing: 0.05em;
+	font-weight: 400
+}
+
+a {
+	color: #fefefe;
+	text-decoration: none;
+	display: block;
+	outline: 0;
+	text-align: center;
+}
+
+a:hover {
+	color: #fefefe;
+	text-decoration: none;
+	display: block;
+	outline: 0;
+	text-align: center;
+}
+
+a:active {
+	color: #fefefe;
+	text-decoration: none;
+	display: block;
+	outline: 0;
+	text-align: center;
+}
+
+a:visited {
+	color: #fefefe;
+	text-decoration: none;
+	display: block;
+	outline: 0;
+	text-align: center;
+}
+
+img {
+	display: inline-block;
+}
+
+
+@keyframes chroab {
+	0% {
+		text-shadow: 0 0 #a50610, 0 0 #0c2aa8, 0 6px 0 transparent, 8px 0 0 transparent;
+	}
+	100% {
+		text-shadow: 0.06ex 0 #a50610, -0.06ex 0 #0c2aa8, 0 0.14ex 0 rgba(0, 0, 0, 0.8), 0.12ex 0 0 rgba(0, 0, 0, 0.8);
+	}
+}
+
+
+

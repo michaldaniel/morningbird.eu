@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>DO NOT</title>
+	<link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="/assets/css/fonts.css?v=1.0">
+    <script src="interact.min.js?v=1.3"></script>
+    <script src="/assets/js/analytics.js?v=1.0"></script>
+    <meta name="viewport" content="width=480px">
+     /*
+        @licstart  The following is the entire license notice for the
+        JavaScript code in this page.
+
+        Copyright (C) {{ 'now' | date: "%Y" }} Michał Daniel
+
+        The JavaScript code in this page is free software: you can
+        redistribute it and/or modify it under the terms of the GNU
+        General Public License (GNU GPL) as published by the Free Software
+        Foundation, either version 3 of the License, or (at your option)
+        any later version.  The code is distributed WITHOUT ANY WARRANTY;
+        without even the implied warranty of MERCHANTABILITY or FITNESS
+        FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+        As additional permission under GNU GPL version 3 section 7, you
+        may distribute non-source (e.g., minimized or compacted) forms of
+        that code without the copy of the GNU GPL normally required by
+        section 4, provided you include this license notice and a URL
+        through which recipients can access the Corresponding Source.
+
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+    */
+</head>
+
+<body>
+
+	<h1>Do not look <a id="link" href="/">;(</a></h1>
+	<div style="position: relative; width: 0; height: 0">
+		<div id="box">
+		</div>
+	</div>
+	<script>
+	var movable =  document.getElementById("box");
+	interact(movable).draggable({
+		inertia: false,
+		restrict: {
+			restriction: "body",
+			endOnly: true,
+			elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
+		},
+		autoScroll: false,
+		onmove: dragMoveListener
+	});
+
+	function dragMoveListener (event) {
+		var target = event.target,
+
+		x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx,
+		y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+		target.style.webkitTransform =
+		target.style.transform =
+		'translate(' + x + 'px, ' + y + 'px)';
+		
+		target.setAttribute('data-x', x);
+		target.setAttribute('data-y', y);
+	}
+	</script>
+
+</body>
+
+
+</html>

@@ -8,8 +8,9 @@ body {
 	color: $color-dark-grey;
 	background: $color-white;
 	font-family: 'Inconsolata', monospace;
-	line-height: 140%;
+	line-height: 150%;
 	font-weight: 400;
+	letter-spacing: 0.05em;
 	overflow:auto;
 }
 
@@ -215,10 +216,29 @@ hr {
 	}
 	
 	h1 {
-	    font-size: 350%;
+	    font-size: 250%;
 	    text-align: center;
 	    margin-bottom: 80px;
 	    margin-top: 0px;
+	}
+	
+	h1 > a {
+		color: $color-dark-grey;
+		text-decoration: underline;
+		&:visited {
+			color: $color-dark-grey;
+			text-decoration: underline;
+		}
+		&:hover {
+			color: $color-link;
+			text-decoration: underline;
+			padding-bottom: 0px;
+			border-bottom: 0px;
+		}
+		&:active {
+			color: $color-dark-grey;
+			text-decoration: underline;
+		}
 	}
 }
 
