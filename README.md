@@ -1,4 +1,4 @@
-# michaldaniel.eu
+# morningbird.eu
 My personal website made with [jekyll](http://jekyllrb.com).
 
 ### License and usage
