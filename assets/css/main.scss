@@ -14,6 +14,7 @@ body {
 	overflow:auto;
 }
 
+
 footer {
 	margin-bottom: 35px;
 	font-size: 75%;
@@ -25,6 +26,20 @@ footer {
 	.icon {
 		float: left;
 		min-width: 20px;
+	}
+	
+	.kopimi img {
+		margin: 16px 0 16px 16px;
+	}
+	
+	.kopimi a {
+		outline: 0px;
+		text-decoration: none;
+		&:hover {
+			border: 0;
+			padding: 0;
+			margin: 0;
+		}
 	}
 }
 
@@ -131,6 +146,14 @@ hr {
 		width: 5%;
 		text-align: right;
 	}
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 .collapsed {
