@@ -5,7 +5,7 @@ layout: core
 
 <div class="header">
 	<h1><a href="/misc/hello">Hello</a></h1>
-	<p>I'm <b>Micha<span style="font-size:80%;">ł</span> Daniel</b>, a software developer <a href="/misc/living">currently living</a> in <a href="https://osm.org/go/0L0Npn_U--?m=">Kraków, Poland</a>. I'm a free software advocate concerned about issues of <a href="/misc/privacy">privacy</a> and <a href="/misc/security">security</a>.</p>
+	<p>I'm <b>Micha<span class="polish">ł</span> Daniel</b>, a software developer <a href="/misc/living">currently living</a> 💀 in <a href="https://osm.org/go/0L0Npn_U--?m=">Kraków, Poland</a> 🥟. I'm a free software advocate concerned about issues of <a href="/misc/privacy">privacy</a> 🕵️ and <a href="/misc/security">security</a> 🔐.</p>
 	<table>
 		<tbody>
 			<!-- Contact elements -->{% for item in site.data.contact %}
@@ -25,7 +25,7 @@ layout: core
 </div>
 
 <div class="pgp-key">
-	<p><span id="toggle_switch">+ Show PGP public key block </span><a href ="assets/download/contact-at-michaldaniel-eu.key">[Download]</a></p>
+	<p><span id="toggle_switch">+ Show PGP public 🔑 block </span><a href ="assets/download/contact-at-michaldaniel-eu.key">[Download]</a></p>
 	<blockquote id="toggle_content" class="collapsed thin">
 		-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
 		Version: GnuPG v1<br/>
@@ -67,72 +67,62 @@ layout: core
 
 <div class="experience">
 	<h2>Experience</h2>
-	<p>You can <a href ="assets/download/curriculum-vitae.pdf">download my CV</a> or just visit my <a href="https://www.linkedin.com/in/michalpiotrdaniel">Linkedin page</a>.</p>
+	<p>You can <a href ="assets/download/curriculum-vitae.pdf">download my CV</a> 📃 or just visit my <a href="https://www.linkedin.com/in/michalpiotrdaniel">Linkedin page</a> 🌐. If you are looking to hire me please check out my <a href="/cv">applications portfolio</a> 📱.</p>
 	<table>
-		<tbody>
-			<!-- Employment elements -->{% for item in site.data.employment %}
-			<tr>
-				<td class="grey">{{ item.year }}</td>
-				<td><a href="{{ item.url }}">{{ item.company }}</a></td>
-				<td>{{ item.position }}</td>
-			</tr>{% endfor %}
-		</tbody>
+		<!-- Employment elements -->{% for item in site.data.employment %}
+		<tr>
+			<td class="grey">{{ item.year }}</td>
+			<td><a href="{{ item.url }}">{{ item.company }}</a></td>
+			<td>{{ item.position }}</td>
+		</tr>{% endfor %}
 	</table>
 </div>
 
 <div class="projects">
 	<h2>Hobby projects</h2>
 	<table>
-		<tbody>
-			<!-- Project elements -->{% for item in site.data.projects %}
-			<tr>
-				<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
-				<td>{{ item.description }}</td>
-			</tr>{% endfor %}
-		</tbody>
+		<!-- Project elements -->{% for item in site.data.projects %}
+		<tr>
+			<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
+			<td>{{ item.description }}</td>
+		</tr>{% endfor %}
 	</table>
 </div>
 
-<div class="blog" style="display: none">
-	<h2>Blog posts</h2>
-	<p>It's my personal blog so please don't expect much. <a href="/blog">Older posts.</a></p>
-	<table>
-		<tbody>
-			<!-- Blog post elements -->{% for post in site.posts limit:5 %}
-			<tr>
-				<td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
-				<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-			</tr>{% endfor %}
-		</tbody>
-	</table>
-</div>
-
-<div style="display: none">
+<div>
 	<h2>What's on my&hellip;</h2>
-	<p>Continuously updated lists of what’s on my desks, devices, shelves, and mind.</p>
+	<p>Continuously updated lists of what’s on my desks 🖥, devices 💻, shelves 📚, and mind 💭.</p>
 	<table>
-		<tbody>
-			<!-- Content "What's on my…" elements -->{% for item in site.data.whats-on-my %}
-			<tr>
-				<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
-				<td>{{ item.description }}</td>
-			</tr>{% endfor %}
-		</tbody>
+
+		<!-- Content "What's on my…" elements -->{% for item in site.data.whats-on-my %}
+		<tr>
+			<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
+			<td>{{ item.description }}</td>
+		</tr>{% endfor %}
+
+	</table>
+</div>
+
+<div class="blog">
+	<h2>Blog posts</h2>
+	<p>It's my <a href="/blog">personal blog</a> 😘 so please don't expect much. 🤷 
+	<table>
+		<!-- Blog post elements -->{% for post in site.posts limit:5 %}
+		<tr>
+			<td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
+			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+		</tr>{% endfor %}
+		<tr>
+			<td></td>
+			<td class="more"><a href="/blog">&hellip;see older posts</p></td>
+		</tr>
 	</table>
 </div>
 
 <!-- START OF FOOTER -->
 
 <hr class="codebreak footnote">
-<div id="cookie_warning" class="collapsed thin">
-	<div class="cookie_message">
-		This website uses cookies. Read more in <a href="/privacy">[Privacy Policy]</a> and <a href="/privacy/cookies">[Cookie Policy]</a>
-	</div>
-	<div class="cookie_close" id="warning_close">
-		&#10006;
-	</div>
-	<div class="clear"></div>
-</div>
+{% include cookies.html %}
 {% include footer.html %}
 
 <!-- END OF FOOTER -->

@@ -23,12 +23,12 @@ footer {
 	overflow: auto;
 	
 	table tr td {
-		padding-right: 5px;
+		padding-right: 4px;
 	}
 
 	.icon {
 		float: left;
-		min-width: 20px;
+		min-width: 16px;
 	}
 	
 	.kopimi img {
@@ -36,7 +36,7 @@ footer {
 	}
 	
 	.kopimi a {
-		outline: 0px;
+		outline: 0;
 		text-decoration: none;
 		&:hover {
 			border: 0;
@@ -77,10 +77,10 @@ b {
 }
 
 table {
-	margin: 20px 0;
+	margin: 16px 0;
 	tr {
 		td {
-			padding-right: 25px;
+			padding-right: 32px;
 			@media screen and (max-width: $br) {
 				display: flex-item;
 				flex: 0 1 auto;
@@ -122,10 +122,10 @@ a {
 ul {
 	list-style: none;
 	li {
-		padding: 5px;
-		padding-left: 10px;
+		padding: 4px;
+		padding-left: 8px;
 		@media screen and (max-width: $br) {
-			padding: 10px 0 10px 0;
+			padding: 8px 0 18px 0;
 		}
 	}
 }
@@ -188,13 +188,13 @@ hr {
 .wrapper {
    	max-width: 600px;
 	width: auto;
-	padding: 20px 40px;
+	padding: 16px 32px;
 	margin-left: auto;
 	margin-right: auto;
 	@media screen and (max-width: $br) {
 		max-width: 100%;
-		padding: 20px 25px;
-		margin-left: 15px;
+		padding: 16px 24px;
+		margin-left: 16px;
 	}
 }
 
@@ -249,7 +249,7 @@ hr {
 	h1 {
 		font-size: 250%;
 		text-align: center;
-		margin-bottom: 80px;
+		margin-bottom: 64px;
 		margin-top: 0px;
 	}
 	
@@ -277,7 +277,7 @@ hr {
 	blockquote {
 		font-size: 75%;
 		margin: 0 0 0 4px;
-		padding-left: 15px;
+		padding-left: 16px;
 		border-left: 3px solid #9e9e9e;
 	}
 	@media screen and (max-width: $br) {
@@ -366,6 +366,10 @@ hr {
 	h1 {
 		font-size: 140%;
 	}
+	
+	.more {
+		font-size: 75%;
+	}
 }
 
 .isso-comment > div.text-wrapper > .isso-comment-footer a:hover {
@@ -380,6 +384,10 @@ hr {
 
 .footnote {
 	margin-top: 32px;
+}
+
+.polish {
+	font-size:80%;
 }
 
 .post {
@@ -418,7 +426,7 @@ hr {
 		}
 	}
 	&__content {
-		padding-top: 10px;
+		padding-top: 8px;
 		h1 {
 			color:$color-black;
 			font-size: 140%;
@@ -452,26 +460,26 @@ hr {
 		}
 		ul, ol {
 			font-size: 100%;
-			margin-left: 30px;
-			margin-top: -10px;
-			margin-bottom: 15px;
+			margin-left: 32px;
+			margin-top: -8px;
+			margin-bottom: 16px;
 			li {
-				padding: 3px;
-				padding-left: 5px;
+				padding: 4px;
+				padding-left: 4px;
 				@media screen and (max-width: $br) {
-					padding: 10px 0 10px 0;
+					padding: 8px 0 8px 0;
 				}
 			}
 			@media screen and (max-width: $br) {
-				margin-left: 25px;
+				margin-left: 24px;
 			}
 		}
 		ul {
 			list-style: circle;
 		}
 		img {
-			margin-top: 10px;
-			margin-bottom: 10px;
+			margin-top: 8px;
+			margin-bottom: 8px;
 			max-width: 100%;
 			max-height: 100%;
 			margin:auto;
@@ -481,12 +489,12 @@ hr {
 			background: $color-code-background;
 		}
 		blockquote {
-			padding-left: 15px;
+			padding-left: 16px;
 			border-left: 3px solid #9e9e9e;
 		}
 		div.highlight {
 			margin: 16px 0;
-			padding: 10px;
+			padding: 8px;
 			line-height: 1.5;
 			background: $color-code-background;
 			border-left: 3px solid #9e9e9e;

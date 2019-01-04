@@ -2,14 +2,16 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		{% if page.description %}<meta name="description" content="{{ page.description }}">
-		{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="Cache-control" content="max-age=86400,public" />
+		{% if page.description %}<meta name="description" content="{{ page.description }}" />
+		{% else %}<meta name="description" content="{{ site.description }}" />{% endif %}
 		<meta name="author" content="{{ site.author }}">
 		<meta name="copyright" content="{{ site.copyright }}"/>
 		<meta name="robots" content="index,follow" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="alternate" type="application/rss+xml" title="Michał Daniel - blog RSS" href="/feed.xml">
 		<script>
 		/*
@@ -52,8 +54,8 @@
 			<div class="wrapper">
 				<div class="logo">
 					<a href="/">
-						<img id="logo" src="/assets/img/bird.gif" alt="Bird flapping wings"/>
-						<img id="logo-on-hover" src="/assets/img/bird-fast.gif" alt="Bird flapping wings very fast"/>
+						<img id="logo" src="/assets/img/bird.gif" alt="Bird flapping wings" width=400 height=400/>
+						<img id="logo-on-hover" src="/assets/img/bird-fast.gif" alt="Bird flapping wings very fast" width="400" height="400" />
 					</a>
 				</div>
 				
