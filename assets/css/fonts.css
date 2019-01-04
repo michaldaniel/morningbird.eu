@@ -4,12 +4,12 @@
   font-style: normal;
   src: url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.eot');
   src: url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.eot?#iefix') format('embedded-opentype'),
-       local('Inconsolata Regular'),
-       local('Inconsolata-regular'),
-       url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
-       url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
-       url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
-       url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
+	   local('Inconsolata Regular'),
+	   local('Inconsolata-regular'),
+	   url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.woff2') format('woff2'),
+	   url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.woff') format('woff'),
+	   url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.ttf') format('truetype'),
+	   url('/assets/fonts/Inconsolata-regular/Inconsolata-regular.svg#Inconsolata') format('svg');
 }
 
 @font-face {
@@ -18,11 +18,11 @@
   font-style: normal;
   src: url('/assets/fonts/Inconsolata-700/Inconsolata-700.eot');
   src: url('/assets/fonts/Inconsolata-700/Inconsolata-700.eot?#iefix') format('embedded-opentype'),
-       local('Inconsolata Bold'),
-       local('Inconsolata-700'),
-       url('/assets/fonts/Inconsolata-700/Inconsolata-700.woff2') format('woff2'),
-       url('/assets/fonts/Inconsolata-700/Inconsolata-700.woff') format('woff'),
-       url('/assets/fonts/Inconsolata-700/Inconsolata-700.ttf') format('truetype'),
-       url('/assets/fonts/Inconsolata-700/Inconsolata-700.svg#Inconsolata') format('svg');
+	   local('Inconsolata Bold'),
+	   local('Inconsolata-700'),
+	   url('/assets/fonts/Inconsolata-700/Inconsolata-700.woff2') format('woff2'),
+	   url('/assets/fonts/Inconsolata-700/Inconsolata-700.woff') format('woff'),
+	   url('/assets/fonts/Inconsolata-700/Inconsolata-700.ttf') format('truetype'),
+	   url('/assets/fonts/Inconsolata-700/Inconsolata-700.svg#Inconsolata') format('svg');
 }
 

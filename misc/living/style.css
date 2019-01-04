@@ -1,17 +1,17 @@
 html {
-    
+	
 	background: url(bg.gif);
 	background-repeat: repeat;;
 	height: 100%;
-    width: 100%;
+	width: 100%;
 	align-items: center;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 h1 {
 	color: #fefefe;
-    font-family: 'Inconsolata', monospace;
+	font-family: 'Inconsolata', monospace;
 	animation: chroab 400ms ease-in both;
 	letter-spacing: 0.05em;
 	font-weight: 400

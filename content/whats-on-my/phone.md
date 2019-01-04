@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Markdown test
-description: Browser friendly description
-cover: /assets/img/mock-photo1.jpg
+layout: content
+title: What's on my phone?
+description: Apps and setup
 ---
+
 
 # Basic stuff
 This is a test post which will contain enough markup to test CSS styles.
@@ -32,7 +32,7 @@ Let's put a code in this file here.
 
 	Good ther was
 	some break in the middle
-	
+
 ## Images
 
 ![Mock Logo](/assets/img/manager.png)

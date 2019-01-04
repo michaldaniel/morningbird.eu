@@ -3,22 +3,30 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Michał Daniel - blog</title>
-    <description>My personal blog centered around software development, system administration and issues of privacy and security.</description>
-    <link>{{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.draft %}
-        <item>
-          <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.content | xml_escape }}</description>
-          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-          <link>{{ post.url | prepend: site.url }}</link>
-          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-        </item>
-      {% endunless %}
-    {% endfor %}
-  </channel>
+	<channel>
+		<title>Michał Daniel - blog</title>
+		<description>My personal blog centered around software development, system administration and issues of privacy and security.</description>
+		<link>{{ site.url }}</link>
+		<language>en-us</language>
+		<copyright>{{ site.time | date: '%y' }} Michał Daniel as. Creative Commons Attribution 4.0 license.</copyright>
+
+	<image>
+		<url>{{ "/assets/img/bird.gif" | prepend: site.url }}</url>
+		<title>Michał Daniel - blog</title>
+		<link>{{ site.url }}</link>
+	</image>
+	{% for post in site.posts %}
+		{% unless post.draft %}
+			<item>
+				<title>{{ post.title | xml_escape }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<link>{{ post.url | prepend: site.url }}</link>
+				<guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+			</item>
+		{% endunless %}
+	{% endfor %}
+	</channel>
 </rss>
 
 

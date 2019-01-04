@@ -1,0 +1,15 @@
+-   name: What's on my phone?
+    description: Apps and setup
+    url: /content/whats-on-my/phone.html
+-   name: What's on my PC?
+    description: Theme, icons, dotfiles and apps
+    url: /content/whats-on-myff/gnu-linux.html
+-   name: What's on my desk?
+    description: My hardware and home
+    url: /content/whats-on-my/desk.html
+-   name: What's on my shelves?
+    description: Books I'm reading right now
+    url: /content/whats-on-my/shelves.html
+-   name: What's on my mind?
+    description: Ideas that float around my head
+    url: /content/whats-on-my/mind.html

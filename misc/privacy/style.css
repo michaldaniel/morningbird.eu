@@ -1,19 +1,19 @@
 html {
 	background: url(bg.gif);
 	background-repeat: repeat;;
-    color: #424242;
+	color: #424242;
 	background: #fefefe;
-    font-family: 'Inconsolata', monospace;
+	font-family: 'Inconsolata', monospace;
 	letter-spacing: 0.1em;
 	font-weight: 400;
 }
 
 body {
 	height: 100vh;
-    width: 100%;
+	width: 100%;
 	align-items: center;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 #link {

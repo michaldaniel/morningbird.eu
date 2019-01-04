@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Markdown test
-description: Browser friendly description
-cover: /assets/img/mock-photo1.jpg
+layout: content
+title: What's on my desk?
+description: My hardware and home
 ---
+
 
 # Basic stuff
 This is a test post which will contain enough markup to test CSS styles.
@@ -25,14 +25,14 @@ This is an ordered list:
 ## Some code
 Let's put a code in this file here.
 
-	This is very
-	complicated code
+    This is very
+    complicated code
 
 <hr class="codebreak">
 
-	Good ther was
-	some break in the middle
-	
+    Good ther was
+    some break in the middle
+
 ## Images
 
 ![Mock Logo](/assets/img/manager.png)

@@ -6,12 +6,12 @@ permalink: /blog/:title
 name: Michał Daniel · software developer · Kraków
 description: My personal website and what not.
 author: Michał Daniel
-copyright: Copyright Michał Daniel 2017+
+copyright: Copyright Michał Daniel 2019+
 
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "CNAME", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 
 
 # Sass
@@ -26,3 +26,6 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
+
+# Site
+url: https://morningbird.eu

@@ -29,15 +29,15 @@
 
 // Establish a function to toggle the class "collapse"
 function toggle_ToggleSwitch() {
-    var toggleContent = document.getElementById('toggle_content');
-    var toggleSwitch = document.getElementById('toggle_switch');
+	var toggleContent = document.getElementById('toggle_content');
+	var toggleSwitch = document.getElementById('toggle_switch');
 
-    toggleContent.classList.toggle('collapsed');
-    if(toggleContent.classList.contains('collapsed')){
-        toggleSwitch.innerHTML = '+' + toggleSwitch.innerHTML.substring(1);
-    }else{
-        toggleSwitch.innerHTML = '-' + toggleSwitch.innerHTML.substring(1);
-    }
+	toggleContent.classList.toggle('collapsed');
+	if(toggleContent.classList.contains('collapsed')){
+		toggleSwitch.innerHTML = '+' + toggleSwitch.innerHTML.substring(1);
+	}else{
+		toggleSwitch.innerHTML = '-' + toggleSwitch.innerHTML.substring(1);
+	}
 }
 
 

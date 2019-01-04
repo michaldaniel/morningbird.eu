@@ -10,17 +10,20 @@ body {
 	font-family: 'Inconsolata', monospace;
 	line-height: 150%;
 	font-weight: 400;
-	letter-spacing: 0.05em;
+	font-size: 15px;
+	letter-spacing: 0.04em;
 	overflow:auto;
 }
 
 
 footer {
-	margin-bottom: 35px;
+	margin-bottom: 16px;
 	font-size: 75%;
 	line-height: 120%;
+	overflow: auto;
+	
 	table tr td {
-	padding-right: 5px;
+		padding-right: 5px;
 	}
 
 	.icon {
@@ -41,12 +44,17 @@ footer {
 			margin: 0;
 		}
 	}
+	
+	.link {
+		margin-top: 0;
+		margin-bottom: 8px;
+	}
 }
 
 h1,h2, h3, h4 {
 	margin-top: 16px;
 	margin-bottom: 16px;
-    color: $color-black;
+	color: $color-black;
 }
 
 h2, h3, h4 {
@@ -165,11 +173,11 @@ hr {
 }
 
 .grey {
-    color: $color-light-grey;
+	color: $color-light-grey;
 }
 
 .no-wrap {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 
 @keyframes Static {
@@ -179,43 +187,43 @@ hr {
 
 .wrapper {
    	max-width: 600px;
-    width: auto;
+	width: auto;
 	padding: 20px 40px;
 	margin-left: auto;
 	margin-right: auto;
 	@media screen and (max-width: $br) {
-        max-width: 100%;
+		max-width: 100%;
 		padding: 20px 25px;
 		margin-left: 15px;
 	}
 }
 
 .logo {
-    text-align: center;
+	text-align: center;
 
-    img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        display: inline;
-    }
-    
-    a {
-        text-decoration: none;
-        border: none;
-    }
-    
-    #logo-on-hover {
-        display: none;
-    }   
-    
-    &:hover img[id="logo"] {
-        display: none;
-    }
-    
-    &:hover img[id="logo-on-hover"] {
-        display: inline !important;
-    }
+	img {
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		display: inline;
+	}
+	
+	a {
+		text-decoration: none;
+		border: none;
+	}
+	
+	#logo-on-hover {
+		display: none;
+	}   
+	
+	&:hover img[id="logo"] {
+		display: none;
+	}
+	
+	&:hover img[id="logo-on-hover"] {
+		display: inline !important;
+	}
 }
 
 .header, .javascript {
@@ -239,10 +247,10 @@ hr {
 	}
 	
 	h1 {
-	    font-size: 250%;
-	    text-align: center;
-	    margin-bottom: 80px;
-	    margin-top: 0px;
+		font-size: 250%;
+		text-align: center;
+		margin-bottom: 80px;
+		margin-top: 0px;
 	}
 	
 	h1 > a {
@@ -274,9 +282,9 @@ hr {
 	}
 	@media screen and (max-width: $br) {
 		blockquote {
-        	font-size: 50%;
+			font-size: 50%;
 			line-height: 100%;
-    	}
+		}
 	}
 }
 
@@ -355,7 +363,6 @@ hr {
 }
 
 .blog {
-	margin-bottom: 32px;
 	h1 {
 		font-size: 140%;
 	}
@@ -366,8 +373,16 @@ hr {
 	border-bottom: none;
 }
 
+.attribution {
+	font-size: 75%;
+	line-height: 120%;
+}
+
+.footnote {
+	margin-top: 32px;
+}
+
 .post {
-	padding-bottom: 30px;
 	&__back {
 		a {
 
@@ -390,6 +405,13 @@ hr {
 			font-size: 100%;
 		}
 	}
+	&__description {
+		p {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 100%;
+		}
+	}
 	&__meta {
 		p {
 
@@ -399,13 +421,13 @@ hr {
 		padding-top: 10px;
 		h1 {
 			color:$color-black;
-			font-size: 1.4em;
+			font-size: 140%;
 			margin-top: 32px;
 			margin-bottom: 16px;
 		}
 		h2 {
 			color: $color-black;
-			font-size: 1.1em;
+			font-size: 110%;
 			margin-top: 32px;
 			margin-bottom: 16px;
 		}
@@ -429,7 +451,7 @@ hr {
 			font-style: italic;
 		}
 		ul, ol {
-			font-size: 1em;
+			font-size: 100%;
 			margin-left: 30px;
 			margin-top: -10px;
 			margin-bottom: 15px;
@@ -450,20 +472,19 @@ hr {
 		img {
 			margin-top: 10px;
 			margin-bottom: 10px;
-			@media screen and (max-width: $br) {
-				width: 100%;
-				margin: auto;
-			}
+			max-width: 100%;
+			max-height: 100%;
+			margin:auto;
 		}
 		code {
-			font-size: 0.9em;
+			font-size: 90%;
 			background: $color-code-background;
 		}
 		blockquote {
 			padding-left: 15px;
 			border-left: 3px solid #9e9e9e;
 		}
-		.highlight {
+		div.highlight {
 			margin: 16px 0;
 			padding: 10px;
 			line-height: 1.5;
