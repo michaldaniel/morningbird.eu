@@ -7,20 +7,18 @@ layout: core
 	<h1><a href="/misc/hello">Hello</a></h1>
 	<p>I'm <b>Micha<span class="polish">ł</span> Daniel</b>, a software developer <a href="/misc/living">currently living</a> 💀 in <a href="https://osm.org/go/0L0Npn_U--?m=">Kraków, Poland</a> 🥟. I'm a free software advocate concerned about issues of <a href="/misc/privacy">privacy</a> 🕵️ and <a href="/misc/security">security</a> 🔐.</p>
 	<table>
-		<tbody>
-			<!-- Contact elements -->{% for item in site.data.contact %}
-			<tr>
-				<td>{{ item.title}}:</td>
-				<td><a href="{{ item.url }}">{{ item.name }}</a></td>
-			</tr>{% endfor %}
-			<tr>
-				<td>Other:</td>
-				<td class="social">
-					<!-- Social elements -->{% for item in site.data.social %}
-					<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
-				</td>
-			</tr>
-		</tbody>
+		<!-- Contact elements -->{% for item in site.data.contact %}
+		<tr>
+			<td>{{ item.title}}:</td>
+			<td><a href="{{ item.url }}">{{ item.name }}</a></td>
+		</tr>{% endfor %}
+		<tr>
+			<td>Other:</td>
+			<td class="social">
+				<!-- Social elements -->{% for item in site.data.social %}
+				<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
+			</td>
+		</tr>
 	</table>
 </div>
 
