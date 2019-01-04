@@ -1,7 +1,7 @@
 ---
 layout: content
-title: What's on my desk?
-description: My hardware and home
+title: What's on my mind?
+description: Ideas that float around my head
 ---
 
 
@@ -25,13 +25,13 @@ This is an ordered list:
 ## Some code
 Let's put a code in this file here.
 
-    This is very
-    complicated code
+	This is very
+	complicated code
 
 <hr class="codebreak">
 
-    Good ther was
-    some break in the middle
+	Good ther was
+	some break in the middle
 
 ## Images
 

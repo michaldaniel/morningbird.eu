@@ -5,38 +5,28 @@ description: Apps and setup
 ---
 
 
-# Basic stuff
-This is a test post which will contain enough markup to test CSS styles.
+# My device
 
-It should have a
-- list
-- [link](http://attebury.me)
-- blockquote
-- some code
+My current device is Xiaomi Redmi Note 5, pretty cool (in my humble opinion) budget Chinese phone. It offers great value for money and has pretty good battery life.
 
-> This is my blockquote.
+## Case for budget phones
 
-This is an ordered list:
+Redmi Note 5 is my third budget phone, I can afford more than I used to and yet I keep buying those low-end devices. In my experience budget phones has been getting closer and closer to the industry flagships. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package for the fraction of the price, can upgrade more often and worry less about breaking stuff. 
 
-1. One
-2. Two
-3. Three
+## MIUI is kind of cool…
 
-## Some code
-Let's put a code in this file here.
+I used to hate MIUI, the first things I would do to a Xiaomi device is to install LineageOS on it. But that changed with MIUI Global 10+. Since the official EU release and EU's GDPR legislation default apps don't ask for wird permissions and network monitoring shows clean slate of outgoing traffic.
 
-	This is very
-	complicated code
+What is left is a pretty decent ROM with Android Oreo as a base, recent security updates and with a nice design, single grid experience, quick search and left side widget screen. I grew to like it a lot.
 
-<hr class="codebreak">
+# My apps
 
-	Good ther was
-	some break in the middle
+## Standard
 
-## Images
+## Unusual
 
-![Mock Logo](/assets/img/manager.png)
+## Fluff
 
-![Mock Photo 1](/assets/img/mock-photo1.jpg)
+## Games
 
-![Mock Photo 1](/assets/img/mock-photo2.jpg)
+

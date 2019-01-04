@@ -3,7 +3,7 @@
     url: /content/whats-on-my/phone.html
 -   name: What's on my PC?
     description: Theme, icons, dotfiles and apps
-    url: /content/whats-on-myff/gnu-linux.html
+    url: /content/whats-on-my/pc.html
 -   name: What's on my desk?
     description: My hardware and home
     url: /content/whats-on-my/desk.html

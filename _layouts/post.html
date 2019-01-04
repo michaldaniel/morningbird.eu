@@ -12,6 +12,9 @@ layout: legal
 		<div class="post__date">
 			<p>{{ page.date | date: '%B %-d, %Y' }}</p>
 		</div>
+		<div class="post__description">
+			<p>{{ page.description }}</p>
+		</div>
 		{% if tags_content %}<div class="post__meta">
 			<p>{{ tags_content }}</p>
 		</div>{% endif %}
@@ -31,12 +34,6 @@ layout: legal
 
 <!-- END OF POST CONTENT -->
 
-			<style>
-				.cover{
-					width: 100%;
-					height: auto;
-				}
-			</style>
 			<br>
 		</div>
 		<hr class="codebreak">
