@@ -9,6 +9,8 @@ description: Apps and setup
 
 My current device is the [Xiaomi Redmi Note 5](https://www.mi.com/global/redmi-note-5/), a pretty cool 😎 (in my humble opinion) budget Chinese phone 📱. It offers a great value for money 💸 and has a good battery life 🔋.
 
+![My Xiaomi Redmi Note 5 device](/assets/img/phone/xiaomi_redmi_note_5_device.jpg)
+
 ## Case for the budget phones
 
 In my experience budget phones has been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for the fraction of the price, can upgrade more often and worry less about breaking stuff 👌. 
@@ -17,6 +19,9 @@ In my experience budget phones has been getting closer and closer to the industr
 
 Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for wird permissions 😨 and network monitoring shows clean slate of outgoing traffic 🕵️ clearing my worries about using Chinese ROM.
 
+![MIUI Global showcase](/assets/img/phone/os_screens_1.png)
+[Grab the wallpaper.](/assets/img/phone/phone_wallpaper.jpg)
+
 What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent security updates, and a nice design. The single app grid, quick search, and left side widget screen make for a good experience 😍, it's like a cross between stock Android 🤖 and Apple 🍎 device. I grew to like the default apps too 👍.
 
 # Cloud
@@ -24,6 +29,8 @@ What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent secu
 I try to sync as much stuff as possible with my [Nextcloud](https://nextcloud.com/) 📡 server, so I use DAV protocol to sync contacts, calendars and tasks, and a special [notes client](https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes) 📔 that can talk with it.
 
 # My apps
+
+![MIUI Global showcase](/assets/img/phone/os_screens_2.png)
 
 ## Standard
 
