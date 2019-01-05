@@ -52,7 +52,7 @@ On my phone 📱 you will find a lot of social media apps like [Facebook](https:
 
 ## Developer's
 
-Outside of standard developer's options there is a bunch of tools 🔧 that I find very handy.
+Outside of standard developer's settings there is a bunch of tools 🔧 that I find very handy.
 
 - [Color Picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) - lets you grab colors from camera feed
 - [Designer Tools](https://play.google.com/store/apps/details?id=com.scheffsblend.designertools) - overlay mockups and grids over screen
@@ -65,7 +65,7 @@ Get [Temp Mail](https://play.google.com/store/apps/details?id=com.tempmail) 📧
 
 ## The weird ones
 
-[Replika](https://play.google.com/store/apps/details?id=ai.replika.app) 🥚 might blow your mind 🤯, it's a really weird chat bot 🤖 but still super impressive and [Casual dieting](https://play.google.com/store/apps/details?id=jp.united.app.kanahei.weightapp)  🐰 is just soooo cuuuteee 😊 for a weight tracker. 
+[Replika](https://play.google.com/store/apps/details?id=ai.replika.app) 🥚 might blow your mind 🤯, it's a really weird and super impressive chat bot 🤖 and [Casual dieting](https://play.google.com/store/apps/details?id=jp.united.app.kanahei.weightapp)  🐰 is a weight tracker that's just soooo cuuuteee 😊. 
 
 ## Games
 
