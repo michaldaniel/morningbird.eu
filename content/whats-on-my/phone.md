@@ -19,7 +19,7 @@ In my experience budget phones has been getting closer and closer to the industr
 
 Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for wird permissions 😨 and network monitoring shows clean slate of outgoing traffic 🕵️ clearing my worries about using Chinese ROM.
 
-![MIUI Global showcase](/assets/img/phone/os_screens_1.png)
+![MIUI Global showcase](/assets/img/phone/os_screens_1.jpg)
 [Grab the wallpaper.](/assets/img/phone/phone_wallpaper.jpg)
 
 What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent security updates, and a nice design. The single app grid, quick search, and left side widget screen make for a good experience 😍, it's like a cross between stock Android 🤖 and Apple 🍎 device. I grew to like the default apps too 👍.
@@ -30,7 +30,7 @@ I try to sync as much stuff as possible with my [Nextcloud](https://nextcloud.co
 
 # My apps
 
-![MIUI Global showcase](/assets/img/phone/os_screens_2.png)
+![MIUI Global showcase](/assets/img/phone/os_screens_2.jpg)
 
 ## Standard
 
