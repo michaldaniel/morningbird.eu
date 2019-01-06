@@ -9,21 +9,21 @@ description: Theme, icons, dotfiles and apps
 
 # The operating system
 
-I am using [Ubuntu GNU/Linux][17] 🐧️ with [GNOME desktop][18], since they made that default I just switch to pure GNOME session 👍.
+I use [Ubuntu GNU/Linux][17] 🐧️ with [GNOME desktop][18], since they made that default I just switch to a pure GNOME session 👍.
 
 ![My dirty desktop][3]
 
 # Mods and themes
 
-I use [my own GTK theme][19], that's a blend of [Arc][20] and [Deepin][21] themes, and I use [Flat Remix][22] icons 😎. Styling of terminal is handled by [wal][23], a script to generate color configurations 🎨️ based on your wallpaper 😙.
+I use [my own GTK theme][19], which is a blend of the [Arc][20] and [Deepin][21] themes, and I use [Flat Remix][22] icons 😎. Styling of terminal is handled by [wal][23], a script to generate color configurations 🎨️ based on your wallpaper 😙.
 
-Across my OS I use [Noto font family][24], Noto Sans for desktop apps and Noto Mono for editors and terminal.
+Across my OS I use the [Noto font family][24], Noto Sans for desktop apps and Noto Mono for editors and terminal.
 
 ![Workspaces view][4]
 
 # [GNOME][18]
 
-I love [GNOME][18] 😍 and big part of that is ability to customize it with [extensions][25]. The ones I'm using now: [Appindicator support][26], [Caffeine][27], [Dash to dock][28], and [Workspaces to dock][29].
+I love [GNOME][18] 😍 and a big part of that is the ability to customize it with [extensions][25]. The ones I'm using now: [Appindicator support][26], [Caffeine][27], [Dash to dock][28], and [Workspaces to dock][29].
 
 ![Apps gird view][5]
 
@@ -33,7 +33,7 @@ I love [GNOME][18] 😍 and big part of that is ability to customize it with [ex
 
 ## [Android Studio][30]
 
-[Android Studio][30] is my main weapon in the tool belt 🔧. I customize it with a few useful plugins like better support for [.gitignore][31] or [rainbow brackets][32] 🌈.
+[Android Studio][30] is the main weapon in my tool belt 🔧. I customize it with a few useful plugins like better support for [.gitignore][31] or [rainbow brackets][32] 🌈.
 
 Oh, and I'm the guy that likes light themes. Come at me with your pitchforks 🔥 but they are just easier on my eyes 😝.
 
@@ -47,7 +47,7 @@ Oh, and I'm the guy that likes light themes. Come at me with your pitchforks �
 
 ## [Text editor][36]
 
-My text editor 📝 of choice is [gedit][36], with combination of powerful plugins (too many to mention) it's feature rich and pretty fast 😃. I use it to work with [web stuff][37], [scripts][38] and [configs][39]. 
+My text editor 📝 of choice is [gedit][36], with a number of powerful plugins (too many to mention), it's feature-rich and pretty fast 😃. I use it to work with [web stuff][37], [scripts][38] and [configs][39]. 
 
 ![gitg][9]
 
@@ -59,13 +59,13 @@ I like [gitg][40] for working with [git][41], it is small, has a nice tree 🌳�
 
 ## [Tilix][42]
 
-[Tilix][42] can do panes, tabs, drag and drop and is just overall the best terminal emulator 🔥. Combine it with the power of [oh-my-zsh][43], my favorite [eastwood theme][44] and [bunch of plugins][45] it's THE TOOL 🔧 to get stuff done 😍.
+[Tilix][42] can do panes, tabs, drag and drop and is just overall the best terminal emulator 🔥. Combine it with the power of [oh-my-zsh][43], my favorite [eastwood theme][44] and [a bunch of plugins][45] it's THE TOOL 🔧 to get stuff done 😍.
 
 ![Bookworm][11]
 
 ## [Bookworm][46]
 
-The best eBook reader 👌 and that comes from someone who spend a lot of sweat and blood [developing his own][47] 😑.
+The best eBook reader 👌 and that comes from someone who spent a lot of sweat and blood [developing his own][47] 😑.
 
 ![Holy trinity][12]
 
@@ -89,13 +89,13 @@ GNOME [Mail][48], [Calendar][49] and [Todo][50] is my holy trinity 👼 of stayi
 
 ## [GIMP][54]
 
-[GIMP][54] is older than the universe but it has seen some active development recently 😮 and remains my go to image editor.
+[GIMP][54] is older than the universe but it has seen some active development recently 😮 and remains my go-to image editor.
 
 ![LibreOffice][16]
 
 ## [LibreOffice][55]
 
-Old school offline office suite to cover all your officy 😗 needs, it got me though school 🎒, university 🏫, and does a good job at work 🏢.
+Old school offline office suite to cover all your officy 😗 needs, it got me through school 🎒, university 🏫, and does a good job at work 🏢.
 
 ## Honorable mentions 
 
@@ -110,7 +110,7 @@ Old school offline office suite to cover all your officy 😗 needs, it got me t
 There is obviously a lot more to list but there is always more. 🤷️
 
 [1]: /assets/img/pc/sc-desktop-clean.png
-[2]: /assets/img/pc/pc-wallpaper.png
+[2]: /assets/img/pc/pc-wallpaper.jpg
 [3]: /assets/img/pc/sc-desktop-dirty.png
 [4]: /assets/img/pc/sc-desktop-workspaces.png
 [5]: /assets/img/pc/sc-desktop-apps.png

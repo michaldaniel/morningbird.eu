@@ -10,22 +10,22 @@ description: Apps and setup
 
 My current device is the [Xiaomi Redmi Note 5][1], a pretty cool 😎 (in my humble opinion) budget Chinese phone 📱. It offers a great value for money 💸 and has a good battery life 🔋.
 
-## Case for the budget phones
+## The case for budget phones
 
-In my experience budget phones have been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for a fraction of the price, while upgrading more often and worrying less about breaking stuff 👌. 
+In my experience budget phones have been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for a fraction of the price, allowing you to upgrade more often and to worry less about breaking stuff 👌. 
 
 ![MIUI Global showcase][3]
 [Grab the wallpaper.][4]
 
 ## MIUI Android is kind of cool
 
-Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for weird permissions 😨 and network monitoring shows clean slate of outgoing traffic 🕵️ clearing my worries about using Chinese ROM.
+Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for weird permissions 😨 and network monitoring shows nothing fishy 🕵️ clearing my worries about using a Chinese ROM.
 
-What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent security updates, and a nice design. The single app grid, quick search, and left side widget screen make for a good experience 😍, it's like a cross between stock Android 🤖 and Apple 🍎 device. I grew to like the default apps too 👍.
+What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent security updates, and a nice design. The single app grid, quick search, and left side widget screen make for a good experience 😍, it's like a cross between stock Android 🤖 and Apple 🍎 devices. I grew to like the default apps too 👍.
 
 # Cloud
 
-I try to sync as much stuff as possible with my [Nextcloud][5] 📡 server, so I use DAV protocol to sync contacts, calendars and tasks, and a special [notes client][6] 📔 that can talk with it.
+I try to sync as much stuff as possible with my [Nextcloud][5] 📡 server, so I use the DAV protocol to sync contacts, calendars and tasks, and a special [notes client][6] 📔 that can talk with it.
 
 ![MIUI Global showcase][7]
 
@@ -33,7 +33,7 @@ I try to sync as much stuff as possible with my [Nextcloud][5] 📡 server, so I
 
 ## Standard
 
-On my phone 📱 you will find a lot of social media apps like [Facebook][8], [Instagram][9], [Reddit][10], [Twitter][11], [Peach][12] 🍑, [Mastalab][13], or [Linkedin][14]. Bunch of communication tools like [Messenger Lite][15] (because 🖕 Messenger), [Telegram][16], [Signal][17], [Slack][18], media apps - [Spotify][19], [Twitch][20], [Audible][21], [YouTube][22], and other for shopping 🛒 or banking 💰, [Google Maps][23] 🧭, [Jakdojade][24] 🚌, [Wavelo][25] 🚲 and [Uber][26] 🚗 for moving around and an endless list of utility apps.
+On my phone 📱 you will find a lot of social media apps like [Facebook][8], [Instagram][9], [Reddit][10], [Twitter][11], [Peach][12] 🍑, [Mastalab][13], or [Linkedin][14], a bunch of communication tools like [Messenger Lite][15] (because 🖕 Messenger), [Telegram][16], [Signal][17], [Slack][18], media apps - [Spotify][19], [Twitch][20], [Audible][21], [YouTube][22], and others for shopping 🛒 or banking 💰, [Google Maps][23] 🧭, [Jakdojade][24] 🚌, [Wavelo][25] 🚲 and [Uber][26] 🚗 for moving around and an endless list of utility apps.
 
 ### Winners
 
@@ -49,7 +49,7 @@ On my phone 📱 you will find a lot of social media apps like [Facebook][8], [I
 - Budget: [Money Manager][32]
 - Cloud: [Nextcloud][33]
 
-## Developer's
+## Developer
 
 Outside of standard developer's settings there is a bunch of tools 🔧 that I find very handy.
 
@@ -60,7 +60,7 @@ Outside of standard developer's settings there is a bunch of tools 🔧 that I f
 
 ## Worthy mentions
 
-Get [Temp Mail][38] 📧 if you want single use, throw away, email address - it's amazing tool to kill spam. [Google Trips][39] 🌴 is awesome for planning 🎫 your next adventures ⛺️ and nobody I ask knows about it. 
+Get [Temp Mail][38] 📧 if you want single use, throwaway, email address - it's an amazing tool to kill spam. [Google Trips][39] 🌴 is awesome for planning 🎫 your next adventures ⛺️ and nobody I ask knows about it. 
 
 ## The weird ones
 
