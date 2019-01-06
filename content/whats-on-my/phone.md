@@ -12,14 +12,14 @@ My current device is the [Xiaomi Redmi Note 5][1], a pretty cool 😎 (in my hum
 
 ## Case for the budget phones
 
-In my experience budget phones has been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for the fraction of the price, can upgrade more often and worry less about breaking stuff 👌. 
+In my experience budget phones have been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for a fraction of the price, while upgradeing more often and worrying less about breaking stuff 👌. 
 
 ![MIUI Global showcase][3]
 [Grab the wallpaper.][4]
 
 ## MIUI Android is kind of cool
 
-Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for wird permissions 😨 and network monitoring shows clean slate of outgoing traffic 🕵️ clearing my worries about using Chinese ROM.
+Since MIUI Global 10+ and EU's GDPR legislation Xiaomi's default apps don't ask for weird permissions 😨 and network monitoring shows clean slate of outgoing traffic 🕵️ clearing my worries about using Chinese ROM.
 
 What is left is a pretty decent OS with Android Oreo 🍪 as a base, recent security updates, and a nice design. The single app grid, quick search, and left side widget screen make for a good experience 😍, it's like a cross between stock Android 🤖 and Apple 🍎 device. I grew to like the default apps too 👍.
 

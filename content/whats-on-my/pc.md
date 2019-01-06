@@ -47,7 +47,7 @@ Oh, and I'm the guy that likes light themes. Come at me with your pitchforks �
 
 ## [Text editor][36]
 
-My text editor 📝 of choice is [gedit][36], with combination of powerful plugins (too many to mention) it's future rich and pretty fast 😃. I use it to work with [web stuff][37], [scripts][38] and [configs][39]. 
+My text editor 📝 of choice is [gedit][36], with combination of powerful plugins (too many to mention) it's feature rich and pretty fast 😃. I use it to work with [web stuff][37], [scripts][38] and [configs][39]. 
 
 ![gitg][9]
 
@@ -77,7 +77,7 @@ GNOME [Mail][48], [Calendar][49] and [Todo][50] is my holy trinity 👼 of stayi
 
 ## [UberWriter][51]
 
-[UberWriter][51] is ma favorite markdown editor, I use it to view and edit my notes 📔 and general writing ✏️.
+[UberWriter][51] is my favorite markdown editor, I use it to view and edit my notes 📔 and general writing ✏️.
 
 ![Firefox][14]
 
