@@ -12,7 +12,7 @@ My current device is the [Xiaomi Redmi Note 5][1], a pretty cool 😎 (in my hum
 
 ## Case for the budget phones
 
-In my experience budget phones have been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for a fraction of the price, while upgradeing more often and worrying less about breaking stuff 👌. 
+In my experience budget phones have been getting closer and closer to the industry flagships 🚢. They can't offer the same quality and refinement as flagship phones but you can get a pretty sweet package 📦 for a fraction of the price, while upgrading more often and worrying less about breaking stuff 👌. 
 
 ![MIUI Global showcase][3]
 [Grab the wallpaper.][4]
