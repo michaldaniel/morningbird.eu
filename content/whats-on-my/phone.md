@@ -75,12 +75,12 @@ Stuff I'm currently playing 🎮.
 - [black][44]
 
 [1]: https://www.mi.com/global/redmi-note-5/
-[2]: /assets/img/phone/xiaomi_redmi_note_5_device.jpg
-[3]: /assets/img/phone/os_screens_1.jpg
-[4]: /assets/img/phone/phone_wallpaper.jpg
+[2]: /assets/img/phone/xiaomi-redmi-note-5-device.jpg
+[3]: /assets/img/phone/os-screens-1.png
+[4]: /assets/img/phone/phone-wallpaper.jpg
 [5]: https://nextcloud.com/
 [6]: https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes
-[7]: /assets/img/phone/os_screens_2.jpg
+[7]: /assets/img/phone/os-screens-2.png
 [8]: https://play.google.com/store/apps/details?id=com.facebook.katana
 [9]: https://play.google.com/store/apps/details?id=com.instagram.android
 [10]: https://play.google.com/store/apps/details?id=com.reddit.frontpage
