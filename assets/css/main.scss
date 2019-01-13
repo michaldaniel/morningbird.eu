@@ -431,6 +431,11 @@ hr {
 
 		}
 	}
+	
+	&__footer {
+		margin-top: 64px;
+	}
+	
 	&__content {
 		padding-top: 8px;
 		h1 {
@@ -438,12 +443,14 @@ hr {
 			font-size: 140%;
 			margin-top: 32px;
 			margin-bottom: 16px;
+			padding: 0px;
 		}
 		h2 {
 			color: $color-black;
 			font-size: 110%;
 			margin-top: 32px;
 			margin-bottom: 16px;
+			padding: 0px;
 		}
 		p {
 			font-size: 1em;
@@ -489,8 +496,8 @@ hr {
 			max-height: 100%;
 			margin-left:auto;
 			margin-right:auto;
-			margin-top: 64px;
-			margin-bottom: 8px;
+			margin-top: 32px;
+			margin-bottom: 32px;
 			display: block;
 		}
 		code {
