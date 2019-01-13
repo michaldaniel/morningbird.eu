@@ -8,6 +8,8 @@ description: My personal website and what not.
 author: Michał Daniel
 copyright: Copyright Michał Daniel 2019+
 
+promo: /assets/img/site-promo.png
+
 
 # File management
 include: [".htaccess"]

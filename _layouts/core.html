@@ -12,11 +12,31 @@
 		<meta name="robots" content="index,follow" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		<!-- Open Graph data -->
+		{% if page.title %}<meta property="og:title" content="{{ site.author }} · {{ page.title }}" />
+		{% else %}<meta property="og:title" content="{{ site.name }}" />{% endif %}
+		
+		{% if page.title %}<meta property="og:type" content="website" />
+		{% else %}<meta property="og:type" content="article" />{% endif %}
+		
+		<meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+		<meta property="og:image" content="{{ site.promo | prepend: site.url }}" />
+		<meta property="og:image:width" content="500" />
+		<meta property="og:image:height" content="500" />
+		{% if page.description %}<meta name="og:description" content="{{ page.description }}" />
+		{% else %}<meta name="og:description" content="{{ site.description }}" />{% endif %}
+		
+		{% if page.title %}<meta property="og:site_name" content="{{ site.author }} · {{ page.title }}" />
+		{% else %}<meta property="og:site_name" content="{{ site.name }}" />{% endif %}
+		
+	 	<meta name="twitter:card" content="summary" />
+
 		<link rel="alternate" type="application/rss+xml" title="Michał Daniel - blog RSS" href="/feed.xml">
 		<link rel="icon" href="/assets/img/favicon.png">
 		<link rel="stylesheet" type="text/css" href="/assets/css/main.css?v=2.0">
 		<link rel="stylesheet" href="/assets/css/fonts.css?v=1.0">
-		{% if page.title %}<title>{{ page.title }}</title>
+		{% if page.title %}<title>{{ site.author }} · {{ page.title }}</title>
 		{% else %}<title>{{ site.name }}</title>{% endif %}
 	</head>
 
