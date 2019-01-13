@@ -157,19 +157,27 @@ hr {
 }
 
 .left {
-	float: left;
+	float: left !important;
+	
+	@media only screen and (max-width: $br) {
+		float: none !important;
+	}
 }
 
 .right {
-	float: right;
+	float: right !important;
+	
+	@media only screen and (max-width: $br) {
+		float: none !important;
+	}
 }
 
 .collapsed {
-	display: none;
+	display: none !important;
 }
 
 .clear {
-	clear: both;
+	clear: both !important;
 }
 
 .cover {
@@ -392,10 +400,6 @@ hr {
 	margin-top: 32px;
 }
 
-.polish {
-	font-size:80%;
-}
-
 .post {
 	&__back {
 		a {
@@ -500,6 +504,20 @@ hr {
 			margin-bottom: 32px;
 			display: block;
 		}
+		
+		.book-cover {
+			margin: 0 16px 0 0;
+			padding: 0;
+			@media screen and (max-width: $br) {
+				margin-left:auto;
+				margin-right:auto;
+				margin-top: 32px;
+				margin-bottom: 32px;
+			}
+		}
+		
+		
+		
 		code {
 			font-size: 90%;
 			background: $color-code-background;
