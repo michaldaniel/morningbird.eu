@@ -77,6 +77,25 @@ layout: core
 </div>
 
 <div class="projects">
+	<div class="container">
+		<h2>My applications</h2>
+		<ul class="projects-list">
+			{% for item in site.data.apps reversed %}
+				<li>
+					<a href="{{ item.url | prepend: site.baseurl }}">
+						<div class="img-wrapper">
+							<img src="{{ item.logo | prepend: site.baseurl }}" alt="{{ item.title }}" />
+						</div>
+						<span class="grey">{{ item.type }}</span>
+						<h3>{{ item.title }}</h3>
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="projects">
 	<h2>Hobby projects</h2>
 	<table>
 		<!-- Project elements -->{% for item in site.data.projects %}

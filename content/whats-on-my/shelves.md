@@ -30,7 +30,7 @@ Norwegian Wood <br />
 </h2>
 [[Link]][6]
 
-I absolutely love this boook 😍️. I have read it twice already but I went back for a third read after I watched the book screening directed by Trần Anh Hùnga. The movie is beautiful and if you are more of a cinema then a book person give it a watch.
+I absolutely love this boook 😍️. I have read it twice already but I went back for a third read after I watched the book screening directed by Trần Anh Hùnga. The movie is beautiful and if you are more of a cinema then a book person then give it a watch.
 
 It's a story of damaged youths coping with emptiness and loss in their lives. It can be sad, melancholic and cheerful, plain down to earth and poetic. Just be warned this book can take a piece of you and leave you feeling a little empty.
 
