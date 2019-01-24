@@ -3,146 +3,22 @@ layout: core
 ---
 
 
-<div class="header">
-	<h1><a href="/misc/hello">Hello</a></h1>
-	<p>I'm <b>Michał Daniel</b>, an application developer <a href="/misc/living">currently living</a> 💀 in <a href="https://osm.org/go/0L0Npn_U--?m=">Kraków, Poland</a> 🥟. I work on mobile and desktop apps, love free software, and I'm interested in <a href="/misc/security">security</a> 🔐 and <a href="/misc/privacy">privacy</a> 🕵️.</p>
-	<table>
-		<!-- Contact elements -->{% for item in site.data.contact %}
-		<tr>
-			<td>{{ item.title}}:</td>
-			<td><a href="{{ item.url }}">{{ item.name }}</a></td>
-		</tr>{% endfor %}
-		<tr>
-			<td>Other:</td>
-			<td class="social">
-				<!-- Social elements -->{% for item in site.data.social %}
-				<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
-			</td>
-		</tr>
-	</table>
-</div>
+{% include intro.html %}
 
-<div class="pgp-key">
-	<p><span id="toggle_switch">+ Show PGP public 🔑 block </span><a href ="assets/download/contact-at-michaldaniel-eu.key">[Download]</a></p>
-	<blockquote id="toggle_content" class="collapsed thin">
-		-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
-		Version: GnuPG v1<br/>
-		<br/>
-		mQENBFhRms8BCACgZMq4D+SfMNGvsOxeOL1JUTj+LmG5eWECDMcIdJqDmtnjaUAD<br/>
-		4oj72iAxJBB1B4u7pFkYQesTSP1xJpGLE2ZtyzW3raktIsxRts3N+KaEvBoiXCeh<br/>
-		Lyq34n4/HRkdosUZZldVUDTcRKBzU2PcfqREqlhux8aRfHdGe6JmnuZ0llXDSm+w<br/>
-		kJqVR+IJU4MjrNPISsaDaaYwc4ZoEAC+HhfHa1Tr2phcVscH3NsxF0Hw1dZNL5yF<br/>
-		8TU+zvEXWp4ncQ6ywGbjeDxu1Km7ZXNTwWkdRm7VLEK7p3yy3MFK/0bFpq5SGxvQ<br/>
-		eTe5S/pPmgbkU8un5FwhWQ/gDUjz3u3ZAgVbABEBAAG0KE1pY2hhxYIgRGFuaWVs<br/>
-		IDxjb250YWN0QG1pY2hhbGRhbmllbC5ldT6JATgEEwECACIFAlhRms8CGwMGCwkI<br/>
-		BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEOJXCmzuWUqbiHMH/A0amZu50hxE1BBK<br/>
-		c3+vn8BjzX6b2nW0TDesLfMPpRighQCgicVMrG7B/RnMCfM91LOoiUHrjwtPuDUe<br/>
-		8cVX7YrVwg0oFa8IeXmAj0c8JtQ/P8DNpVXQK2MUqHPtLLkFVy+OUbeoUnfdxEZT<br/>
-		9eQhma24gZIARHMhoFww3hlBdVD6KlkJ+6AaiG/qXN6OFwoNqYhZgfPWoDh/Mrdt<br/>
-		/HTL3UPG6oxe4fmHdkPQ8otZsJk96fi1Ccv9M2KP4AWDHgaDDWlPyM/IMum4LK9F<br/>
-		zqEGcjfcQSrw1wgK5bT1/hEYK9s6fBITK+cLRVsy5P9gllNWsXrrNMIm7B4fLC3o<br/>
-		G5QyKiG5AQ0EWFGazwEIAMiO9iOBJ3mahzrE3keaojC0QlKH0wcIcPOKPuq0bJuM<br/>
-		P1gbeKJ7lLKhyIcgbaZRCAnT74crx3F/+mi/n5Cq/USe6WV1VU5yAaQR479mRpqZ<br/>
-		7FaoefLQgJ+sbHRFTmAmhHlmYQKrusXhnM3KNyqhWdxO/OLTaImSZsNu1KdrzPpQ<br/>
-		NoqUJnvisL5Iqrev4KrJDvJd6RHey/eiRGniVSO3rdS8ChQ2BJBXavVohb4I+xXJ<br/>
-		6nkMihJ8Edig/uPIGUjriCw2Q4dQ+96L42kYUDpwxzJJyqkEF/aRHKRgTPrPCV8V<br/>
-		6m/PrcGdpK5UWYstnqIAMiDNjLLTEQLncYx3dtcCGu8AEQEAAYkBHwQYAQIACQUC<br/>
-		WFGazwIbDAAKCRDiVwps7llKm+m4B/0Syr8ANRwinymyHR0elzJ69epk8D+VnMnZ<br/>
-		OCh0bD7eT7JvtpoCga0UUaHhsL0zg50GaGmjDstHdQtNNoVk+08/BoKezLtcCZQW<br/>
-		Zu9zSj3/Y1OWhRrWqwob47mC3BzLu4q3NifhTts/ooPTHgTiBM4bp8zHDVF0wWpR<br/>
-		+lgWttmoz6ipFwwIpEuXtJZSZX1MbZ+SAIEkIkqtzvqLiB4BKbLFVIgkkFNZ70md<br/>
-		x8xZIl5oNUr+h9igu0iGxGaaXFLNaM/oDeJ6cv/hJ6JaW7PplbPASwx6vDPzt7//<br/>
-		mhXYpH2XDkflKzjorI82auU9MzWBxRqgrn5Hwq/nBk4v6SWQncw2<br/>
-		=IX5q<br/>
-		-----END PGP PUBLIC KEY BLOCK-----
-	</blockquote>
-	<script type="text/javascript" src="assets/js/toggle.js?v=2.0"></script>
-	<script type="text/javascript">
-		// Add a click event to run the mainNavToggle function
-		document.getElementById('toggle_switch').addEventListener('click', toggle_ToggleSwitch);
-	</script>
-</div>
+{% include contact.html %}
 
-<div class="experience">
-	<h2>Experience</h2>
-	<p>You can <a href ="assets/download/curriculum-vitae.pdf">download my CV</a> 📃 or just visit my <a href="https://www.linkedin.com/in/michalpiotrdaniel">Linkedin page</a> 🌐. If you are looking to hire me please check out my <a href="/cv">applications portfolio</a> 📱.</p>
-	<table>
-		<!-- Employment elements -->{% for item in site.data.employment %}
-		<tr>
-			<td class="grey">{{ item.year }}</td>
-			<td><a href="{{ item.url }}">{{ item.company }}</a></td>
-			<td>{{ item.position }}</td>
-		</tr>{% endfor %}
-	</table>
-</div>
+{% include expirience.html %}
 
-<div class="projects">
-	<div class="container">
-		<h2>My applications</h2>
-		<ul class="projects-list">
-			{% for item in site.data.apps reversed %}
-				<li>
-					<a href="{{ item.url | prepend: site.baseurl }}">
-						<div class="img-wrapper">
-							<img src="{{ item.logo | prepend: site.baseurl }}" alt="{{ item.title }}" />
-						</div>
-						<span class="grey">{{ item.type }}</span>
-						<h3>{{ item.title }}</h3>
-					</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</div>
+{% include apps.html %}
 
-<div class="projects">
-	<h2>Hobby projects</h2>
-	<table>
-		<!-- Project elements -->{% for item in site.data.projects %}
-		<tr>
-			<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
-			<td>{{ item.description }}</td>
-		</tr>{% endfor %}
-	</table>
-</div>
+{% include projects.html %}
 
-<div>
-	<h2>What's on my&hellip;</h2>
-	<p>Continuously updated lists of what’s on my desks 🖥, devices 💻, shelves 📚, and mind 💭.</p>
-	<table>
+{% include articles.html %}
 
-		<!-- Content "What's on my…" elements -->{% for item in site.data.whats-on-my %}
-		<tr>
-			<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
-			<td>{{ item.description }}</td>
-		</tr>{% endfor %}
+{% include blog.html %}
 
-	</table>
-</div>
 
-<div class="blog">
-	<h2>Blog posts</h2>
-	<p>It's my <a href="/blog">personal blog</a> 😘 so please don't expect much. 🤷 
-	<table>
-		<!-- Blog post elements -->{% for post in site.posts limit:5 %}
-		<tr>
-			<td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>{% endfor %}
-		<tr>
-			<td></td>
-			<td class="more"><a href="/blog">&hellip;see older posts</p></td>
-		</tr>
-	</table>
-</div>
 
-<!-- START OF FOOTER -->
-
-<hr class="codebreak footnote">
-{% include cookies.html %}
-{% include footer.html %}
-
-<!-- END OF FOOTER -->
 
 
 

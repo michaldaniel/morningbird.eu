@@ -1,0 +1,21 @@
+#cookie_warning {
+	line-height: 150%;
+	border: 1px solid $color-warning;
+	padding: 8px 16px;
+	margin-bottom: 16px;
+	font-size: 90%;
+
+	.cookie_message {
+		float: left;
+		width: 95%;
+		text-align: left;
+	}
+
+	.cookie_close {
+		color: $color-warning;
+		float: right;
+		width: 5%;
+		text-align: right;
+	}
+}
+

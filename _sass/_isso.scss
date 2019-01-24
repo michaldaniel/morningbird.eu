@@ -1,0 +1,8 @@
+.isso-thread {
+	.isso-comment > div.text-wrapper > .isso-comment-footer a {
+		&:hover {
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}

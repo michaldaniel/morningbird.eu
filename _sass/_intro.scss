@@ -1,0 +1,29 @@
+.intro {
+	h1 {
+		font-size: 250%;
+		text-align: center;
+		margin-bottom: 64px;
+		margin-top: 0px;
+	}
+	
+	h1 { 
+		a {
+			color: $color-dark-grey;
+			text-decoration: underline;
+			&:visited {
+				color: $color-dark-grey;
+				text-decoration: underline;
+			}
+			&:hover {
+				color: $color-link;
+				text-decoration: underline;
+				padding-bottom: 0px;
+				border-bottom: 0px;
+			}
+			&:active {
+				color: $color-dark-grey;
+				text-decoration: underline;
+			}
+		}
+	}
+}

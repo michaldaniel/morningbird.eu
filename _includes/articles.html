@@ -1,0 +1,15 @@
+<section class="articles">
+	<div class="wrapper">
+		<h2>What's on my&hellip;</h2>
+		<p>Continuously updated lists of what’s on my desks 🖥, devices 💻, shelves 📚, and mind 💭.</p>
+		<table>
+
+			<!-- Content "What's on my…" elements -->{% for item in site.data.whats-on-my %}
+			<tr>
+				<td class="no-wrap"><a href="{{ item.url }}">{{ item.name }}</a></td>
+				<td>{{ item.description }}</td>
+			</tr>{% endfor %}
+
+		</table>
+	</div>
+</section>

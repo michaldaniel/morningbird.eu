@@ -1,102 +1,38 @@
 <!doctype html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<meta http-equiv="Cache-control" content="max-age=86400,public" />
-		{% if page.description %}<meta name="description" content="{{ page.description }}" />
-		{% else %}<meta name="description" content="{{ site.description }}" />{% endif %}
-		<meta name="author" content="{{ site.author }}">
-		<meta name="copyright" content="{{ site.copyright }}"/>
-		<meta name="robots" content="index,follow" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		
-		<!-- Open Graph data -->
-		{% if page.title %}<meta property="og:title" content="{{ site.author }} · {{ page.title }}" />
-		{% else %}<meta property="og:title" content="{{ site.name }}" />{% endif %}
-		
-		{% if page.title %}<meta property="og:type" content="website" />
-		{% else %}<meta property="og:type" content="article" />{% endif %}
-		
-		<meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-		<meta property="og:image" content="{{ site.promo | prepend: site.url }}" />
-		<meta property="og:image:width" content="500" />
-		<meta property="og:image:height" content="500" />
-		{% if page.description %}<meta name="og:description" content="{{ page.description }}" />
-		{% else %}<meta name="og:description" content="{{ site.description }}" />{% endif %}
-		
-		{% if page.title %}<meta property="og:site_name" content="{{ site.author }} · {{ page.title }}" />
-		{% else %}<meta property="og:site_name" content="{{ site.name }}" />{% endif %}
-		
-	 	<meta name="twitter:card" content="summary" />
 
-		<link rel="alternate" type="application/rss+xml" title="Michał Daniel - blog RSS" href="/feed.xml">
-		<link rel="icon" href="/assets/img/favicon.png">
-		<link rel="stylesheet" type="text/css" href="/assets/css/main.css?v=2.0">
-		<link rel="stylesheet" href="/assets/css/fonts.css?v=1.0">
-		{% if page.title %}<title>{{ site.author }} · {{ page.title }}</title>
-		{% else %}<title>{{ site.name }}</title>{% endif %}
-	</head>
+{% include head.html %}
+	
+<body>
+	
+<!-- START OF HEADER -->	
 
-	<body>
-		<div class="container">
-			<div class="wrapper">
-				<div class="logo">
-					<a href="/">
-						<img id="logo" src="/assets/img/bird.gif" alt="Bird flapping wings" width="400" height="400">
-						<img id="logo-on-hover" src="/assets/img/bird-fast.gif" alt="Bird flapping wings very fast" width="400" height="400" />
-					</a>
-				</div>
-				
+{% include header.html %}
+
+<!-- END OF HEADER -->
+
 <!-- START OF CONTENT -->
+
+<main class="content">	
 
 {{ content }}
 
+</main>
+
 <!-- END OF CONTENT -->
+	
+<!-- START OF FOOTER -->
 
-		   </div>
-		</div>
-		<script>
-		/*
-		@licstart  The following is the entire license notice for the
-		JavaScript code in this page.
+{% include footer.html %}
 
-		Copyright (C) {{ 'now' | date: "%Y" }} Michał Daniel
+<!-- END OF FOOTER -->
 
-		The JavaScript code in this page is free software: you can
-		redistribute it and/or modify it under the terms of the GNU
-		General Public License (GNU GPL) as published by the Free Software
-		Foundation, either version 3 of the License, or (at your option)
-		any later version.  The code is distributed WITHOUT ANY WARRANTY;
-		without even the implied warranty of MERCHANTABILITY or FITNESS
-		FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+<!-- START OF SCRIPTS -->
 
-		As additional permission under GNU GPL version 3 section 7, you
-		may distribute non-source (e.g., minimized or compacted) forms of
-		that code without the copy of the GNU GPL normally required by
-		section 4, provided you include this license notice and a URL
-		through which recipients can access the Corresponding Source.
+{% include scripts.html %}
 
+<!-- END OF SCRIPTS -->
 
-		@licend  The above is the entire license notice
-		for the JavaScript code in this page.
-		*/
-		</script>
-		<script data-isso="https://isso.morningbird.eu" data-isso-require-author="true" data-isso-require-email="true" data-isso-avatar="true" data-isso-gravatar="false" src="/assets/js/embed.min.js?v=1.0"></script>
-		<script src="/assets/js/analytics.js?v=1.0"></script>
-		<script src="/assets/js/cookies.js?v=1.0"></script>
-		<script type="text/javascript">
-			cookies_warning_initialize();
-			// Add a click event to run the cookies_warning_close function
-			document.getElementById('warning_close').addEventListener('click', cookies_warning_close);
-		</script>
-		<script type="text/javascript">
-			/*
-			* Hello fellow traveler.
-			*/
-			console.info('"If you want to accomplish something in the world, idealism is not enough - you need to choose a method that works to achieve the goal." - Richard Stallman');
-		</script>
-	</body>
+</body>
 </html>

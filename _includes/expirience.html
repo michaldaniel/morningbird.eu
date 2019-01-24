@@ -1,0 +1,14 @@
+<section class="experience">
+	<div class="wrapper">
+		<h2>Experience</h2>
+		<p>You can <a href ="assets/download/curriculum-vitae.pdf">download my CV</a> 📃 or just visit my <a href="https://www.linkedin.com/in/michalpiotrdaniel">Linkedin page</a> 🌐. If you are looking to hire me please check out my <a href="/cv">applications portfolio</a> 📱.</p>
+		<table>
+			<!-- Employment elements -->{% for item in site.data.employment %}
+			<tr>
+				<td class="grey">{{ item.year }}</td>
+				<td><a href="{{ item.url }}">{{ item.company }}</a></td>
+				<td>{{ item.position }}</td>
+			</tr>{% endfor %}
+		</table>
+	</div>
+</section>

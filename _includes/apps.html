@@ -1,0 +1,18 @@
+<section class="apps">
+	<div class="wrapper">
+		<h2>My applications</h2>
+		<ul>
+			{% for item in site.data.apps reversed %}
+				<li>
+					<a href="{{ item.url | prepend: site.baseurl }}">
+						<div class="img-wrapper">
+							<img src="{{ item.logo | prepend: site.baseurl }}" alt="{{ item.title }}" />
+						</div>
+						<span class="grey">{{ item.type }}</span>
+						<h3>{{ item.title }}</h3>
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

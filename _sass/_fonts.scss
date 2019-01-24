@@ -1,0 +1,13 @@
+/* Inconsolata Regular - Latin extended */
+@font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.eot');
+	src: local('Inconsolata Regular'), local('Inconsolata-Regular'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.woff2') format('woff2'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.woff') format('woff'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.ttf') format('truetype'),
+		url('/assets/fonts/Inconsolata/Inconsolata-latin-latin-ext-regular.svg#Inconsolata') format('svg');
+}

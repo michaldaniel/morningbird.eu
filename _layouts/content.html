@@ -1,26 +1,28 @@
 ---
-layout: legal
+layout: core
 ---
 
-	<div class="post">
-		<div class="post__back" style="display: none;">
-			<a href="/">&lt;-- home</a>
+<article class="post">
+	<header>
+		<div class="wrapper">
+			<nav>
+				<a href="/">&lt;-- home</a>
+			</nav>
+			<div class="title">
+				<h1>{{ page.title }}</h1>
+			</div>
+			<div class="description">
+				<p>{{ page.description }}</p>
+			</div>
 		</div>
-		<div class="post__title">
-			<h1>{{ page.title }}</h1>
-		</div>
-		<div class="post__description">
-			<p>{{ page.description }}</p>
-		</div>
-{% if page.cover %}
-	</div>
-</div>
-<img src="{{page.cover}}" class="cover">
-
-<div class="wrapper">
-	<div class="post">
-{% endif %}
-		<div class="post__content">
+	</header>
+	{% if page.cover %}
+	<section class="cover">
+		<img src="{{page.cover}}">
+	</section>
+	{% endif %}
+	<section class="content">
+		<div class="wrapper">
 
 <!-- START OF POST CONTENT -->
 
@@ -29,8 +31,18 @@ layout: legal
 <!-- END OF POST CONTENT -->
 
 		</div>
-		<div class="post__footer">
+	</section>
+	
+	<footer>
+		<div class="wrapper">
 			<hr class="codebreak">
-			{% include attribution.html %}
+
+<!-- START OF ATTRIBUTIONS -->
+		
+{% include attribution.html %}
+
+<!-- END OF ATTRIBUTIONS -->
+
 		</div>
-	</div>
+	</footer>
+</article>

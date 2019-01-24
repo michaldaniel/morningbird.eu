@@ -1,0 +1,56 @@
+<section class="contact">
+	<div class="wrapper">
+		<table>
+			<!-- Contact elements -->{% for item in site.data.contact %}
+			<tr>
+				<td><b>{{ item.title}}:<b/></td>
+				<td><a href="{{ item.url }}">{{ item.name }}</a></td>
+			</tr>{% endfor %}
+			<tr>
+				<td><b>Other:</b></td>
+				<td class="social">
+					<!-- Social elements -->{% for item in site.data.social %}
+					<a href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
+				</td>
+			</tr>
+		</table>
+
+		<details class="pgp-key">
+			<summary>
+				Show PGP public 🔑 block <a href ="assets/download/contact-at-michaldaniel-eu.key">[Download]</a>
+			</summary>
+			<blockquote>
+				-----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
+				Version: GnuPG v1<br/>
+				<br/>
+				mQENBFhRms8BCACgZMq4D+SfMNGvsOxeOL1JUTj+LmG5eWECDMcIdJqDmtnjaUAD<br/>
+				4oj72iAxJBB1B4u7pFkYQesTSP1xJpGLE2ZtyzW3raktIsxRts3N+KaEvBoiXCeh<br/>
+				Lyq34n4/HRkdosUZZldVUDTcRKBzU2PcfqREqlhux8aRfHdGe6JmnuZ0llXDSm+w<br/>
+				kJqVR+IJU4MjrNPISsaDaaYwc4ZoEAC+HhfHa1Tr2phcVscH3NsxF0Hw1dZNL5yF<br/>
+				8TU+zvEXWp4ncQ6ywGbjeDxu1Km7ZXNTwWkdRm7VLEK7p3yy3MFK/0bFpq5SGxvQ<br/>
+				eTe5S/pPmgbkU8un5FwhWQ/gDUjz3u3ZAgVbABEBAAG0KE1pY2hhxYIgRGFuaWVs<br/>
+				IDxjb250YWN0QG1pY2hhbGRhbmllbC5ldT6JATgEEwECACIFAlhRms8CGwMGCwkI<br/>
+				BwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEOJXCmzuWUqbiHMH/A0amZu50hxE1BBK<br/>
+				c3+vn8BjzX6b2nW0TDesLfMPpRighQCgicVMrG7B/RnMCfM91LOoiUHrjwtPuDUe<br/>
+				8cVX7YrVwg0oFa8IeXmAj0c8JtQ/P8DNpVXQK2MUqHPtLLkFVy+OUbeoUnfdxEZT<br/>
+				9eQhma24gZIARHMhoFww3hlBdVD6KlkJ+6AaiG/qXN6OFwoNqYhZgfPWoDh/Mrdt<br/>
+				/HTL3UPG6oxe4fmHdkPQ8otZsJk96fi1Ccv9M2KP4AWDHgaDDWlPyM/IMum4LK9F<br/>
+				zqEGcjfcQSrw1wgK5bT1/hEYK9s6fBITK+cLRVsy5P9gllNWsXrrNMIm7B4fLC3o<br/>
+				G5QyKiG5AQ0EWFGazwEIAMiO9iOBJ3mahzrE3keaojC0QlKH0wcIcPOKPuq0bJuM<br/>
+				P1gbeKJ7lLKhyIcgbaZRCAnT74crx3F/+mi/n5Cq/USe6WV1VU5yAaQR479mRpqZ<br/>
+				7FaoefLQgJ+sbHRFTmAmhHlmYQKrusXhnM3KNyqhWdxO/OLTaImSZsNu1KdrzPpQ<br/>
+				NoqUJnvisL5Iqrev4KrJDvJd6RHey/eiRGniVSO3rdS8ChQ2BJBXavVohb4I+xXJ<br/>
+				6nkMihJ8Edig/uPIGUjriCw2Q4dQ+96L42kYUDpwxzJJyqkEF/aRHKRgTPrPCV8V<br/>
+				6m/PrcGdpK5UWYstnqIAMiDNjLLTEQLncYx3dtcCGu8AEQEAAYkBHwQYAQIACQUC<br/>
+				WFGazwIbDAAKCRDiVwps7llKm+m4B/0Syr8ANRwinymyHR0elzJ69epk8D+VnMnZ<br/>
+				OCh0bD7eT7JvtpoCga0UUaHhsL0zg50GaGmjDstHdQtNNoVk+08/BoKezLtcCZQW<br/>
+				Zu9zSj3/Y1OWhRrWqwob47mC3BzLu4q3NifhTts/ooPTHgTiBM4bp8zHDVF0wWpR<br/>
+				+lgWttmoz6ipFwwIpEuXtJZSZX1MbZ+SAIEkIkqtzvqLiB4BKbLFVIgkkFNZ70md<br/>
+				x8xZIl5oNUr+h9igu0iGxGaaXFLNaM/oDeJ6cv/hJ6JaW7PplbPASwx6vDPzt7//<br/>
+				mhXYpH2XDkflKzjorI82auU9MzWBxRqgrn5Hwq/nBk4v6SWQncw2<br/>
+				=IX5q<br/>
+				-----END PGP PUBLIC KEY BLOCK-----
+			</blockquote>
+		</details>
+	</div>
+</section>

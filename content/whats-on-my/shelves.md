@@ -6,7 +6,7 @@ description: Books I'm reading right now
 
 # Non-ficion
 
-![Architecture of independence in Central Europe][1]{:.left .book-cover} 
+![Architecture of independence in Central Europe][1]{:.left .inline-image} 
 
 <h2>
 Architecture of independence in Central Europe <br />
@@ -22,7 +22,7 @@ It's a series of essays on architecture and urban planning in the newly created 
 
 # Fiction
 
-![Norwegian Wood][2]{:.left .book-cover} 
+![Norwegian Wood][2]{:.left .inline-image} 
 
 <h2>
 Norwegian Wood <br />
@@ -38,7 +38,7 @@ It's a story of damaged youths coping with emptiness and loss in their lives. It
 
 # Professional literature
 
-![Kotlin for Android Developers][3]{:.left .book-cover} 
+![Kotlin for Android Developers][3]{:.left .inline-image} 
 
 <h2>
 Kotlin for Android Developers <br />
@@ -52,7 +52,7 @@ Everyone says it's the best book to learn Kotlin and how it's used in Android de
 
 # Other
 
-![Be More Pirate][4]{:.left .book-cover} 
+![Be More Pirate][4]{:.left .inline-image} 
 
 <h2>
 Be More Pirate <br />

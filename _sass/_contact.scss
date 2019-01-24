@@ -1,0 +1,53 @@
+.contact {
+	.pgp-key {
+		blockquote {
+			font-size: 75%;
+			margin: 8px 0 0 3px;
+			padding-left: 16px;
+			border-left: 3px solid #9e9e9e;
+		}
+		@media screen and (max-width: $breakpoint) {
+			blockquote {
+				font-size: 50%;
+				line-height: 100%;
+			}
+		}
+	}
+	
+	summary {
+		&::-webkit-details-marker {
+			display: none;
+		}
+		&:first-of-type {
+  			list-style-type: none;
+  		}
+  		&:after {
+			content: "+"; 
+			float: left;
+			margin-right: 8px;
+		}
+		
+	}
+	
+	details {
+		&[open] {
+			summary {
+				&:after {
+					content: "-";
+				}
+			}
+		}
+	}
+	
+	td.social {
+		::after {
+			content: ",";
+		}
+		:last-child::after {
+			content: "";
+		}
+	}
+}
+	
+
+

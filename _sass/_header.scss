@@ -1,0 +1,32 @@
+.header {
+	.logo {
+		text-align: center;
+
+		img {
+			width: auto;
+			height: auto;
+			max-width: 100%;
+			display: inline;
+		}
+		
+		a {
+			&:hover {
+				border: 0;
+				padding: 0;
+			}
+		}
+		
+		#logo-on-hover {
+			display: none;
+		}   
+		
+		&:hover img[id="logo"] {
+			display: none;
+		}
+		
+		&:hover img[id="logo-on-hover"] {
+			display: inline !important;
+		}
+	}
+}
+

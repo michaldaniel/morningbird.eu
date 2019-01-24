@@ -1,0 +1,17 @@
+<section class="blog">
+	<div class="wrapper">
+		<h2>Blog posts</h2>
+		<p>It's my <a href="/blog">personal blog</a> 😘 so please don't expect much. 🤷 
+		<table>
+			<!-- Blog post elements -->{% for post in site.posts limit:5 %}
+			<tr>
+				<td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
+				<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+			</tr>{% endfor %}
+			<tr>
+				<td></td>
+				<td class="more"><a href="/blog">&hellip;see older posts</p></td>
+			</tr>
+		</table>
+	</div>
+</section>

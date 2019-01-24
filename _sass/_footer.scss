@@ -1,0 +1,25 @@
+footer {
+	margin-bottom: 16px;
+	font-size: 75%;
+	line-height: 100%;
+	overflow: auto;
+	
+	.kopimi {
+		float: right !important;
+	 	img {
+			margin: 0;
+		}
+		
+		a {
+			&:hover {
+				border: 0;
+				padding: 0;
+			}
+		}
+	}
+	
+	.link {
+		margin-top: 0;
+		margin-bottom: 8px;
+	}
+}
