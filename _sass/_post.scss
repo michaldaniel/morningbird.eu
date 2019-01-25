@@ -136,7 +136,31 @@
 		    text-decoration: underline;
 		}
 
-
+		table {
+			margin-bottom: $margin-l;
+			width: 100%;
+			text-align: left;
+			color: lighten($color-dark-grey, 5%);
+			border-collapse: collapse;
+			border: 1px solid $color-light-grey;
+			
+			tr {
+				&:nth-child(even) {
+				 	background-color: lighten($color-light-grey, 35%);
+				}
+			}
+			th, td {
+				padding: ($margin-l / 3) ($margin-l / 2);
+			}
+			th {
+				background-color: lighten($color-light-grey, 15%);
+				border: 1px solid darken($color-light-grey, 20%);
+				border-bottom-color: darken($color-light-grey, 25%);
+			}
+			td {
+				border: 1px solid $color-light-grey;
+			}
+		}
 		
 		.highlighter-rouge {	  
 	        font-size: 100%;
