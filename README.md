@@ -9,10 +9,10 @@ Although I would assume that if you want to use the layout for your own site the
 
 ## TODO
 
-[ ] Language code highlighter
-[ ] Table styling for posts
-[ ] Segregate post styles into post specific and core
-[ ] Add top bar to header
-[ ] Root apps page
-[ ] App page layout
-[ ] CV page layout
+* [ ] Language code highlighter
+* [ ] Table styling for posts
+* [ ] Segregate post styles into post specific and core
+* [ ] Add top bar to header
+* [ ] Root apps page
+* [ ] App page layout
+* [ ] CV page layout
