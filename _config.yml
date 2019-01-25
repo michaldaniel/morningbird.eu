@@ -4,8 +4,11 @@ permalink: /blog/:title
 
 # My variables
 name: Michał Daniel · software developer · Kraków
-description: My personal website and what not.
-author: Michał Daniel
+description: Hello. I'm Michał Daniel, an application developer from Kraków, Poland. I work on mobile and desktop apps, love free software, and I'm interested in security and privacy. This is my personal website, blog, online curriculum vitae, and applications portfolio.
+author:
+  name: Michał Daniel
+  location: Kraków, Poland 🥟
+  url: https://osm.org/go/0L0Npn_U--?m=
 copyright: Copyright Michał Daniel 2019+
 
 promo: /assets/img/site-promo.png
@@ -31,3 +34,5 @@ highlighter: rouge
 
 # Site
 url: https://morningbird.eu
+website: morningbird.eu
+sources: https://github.com/michaldaniel/morningbird.eu

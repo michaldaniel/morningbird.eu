@@ -3,13 +3,13 @@
 <meta http-equiv="Cache-control" content="max-age=86400,public" />
 {% if page.description %}<meta name="description" content="{{ page.description }}" />
 {% else %}<meta name="description" content="{{ site.description }}" />{% endif %}
-<meta name="author" content="{{ site.author }}">
+<meta name="author" content="{{ site.author.name }}">
 <meta name="copyright" content="{{ site.copyright }}"/>
 <meta name="robots" content="index,follow" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <!-- Open Graph data -->
-{% if page.title %}<meta property="og:title" content="{{ site.author }} · {{ page.title }}" />
+{% if page.title %}<meta property="og:title" content="{{ site.author.name }} · {{ page.title }}" />
 {% else %}<meta property="og:title" content="{{ site.name }}" />{% endif %}
 
 {% if page.title %}<meta property="og:type" content="website" />
@@ -22,14 +22,14 @@
 {% if page.description %}<meta name="og:description" content="{{ page.description }}" />
 {% else %}<meta name="og:description" content="{{ site.description }}" />{% endif %}
 
-{% if page.title %}<meta property="og:site_name" content="{{ site.author }} · {{ page.title }}" />
+{% if page.title %}<meta property="og:site_name" content="{{ site.author.name }} · {{ page.title }}" />
 {% else %}<meta property="og:site_name" content="{{ site.name }}" />{% endif %}
 
 <meta name="twitter:card" content="summary" />
 
-<link rel="alternate" type="application/rss+xml" title="Michał Daniel - blog RSS" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.author.name }} - blog RSS" href="/feed.xml">
 <link rel="icon" href="/assets/img/favicon.png">
 
-{% if page.title %}<title>{{ site.author }} · {{ page.title }}</title>
+{% if page.title %}<title>{{ site.author.name }} · {{ page.title }}</title>
 {% else %}<title>{{ site.name }}</title>{% endif %}
 
