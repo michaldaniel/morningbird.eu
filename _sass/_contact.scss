@@ -2,8 +2,8 @@
 	.pgp-key {
 		blockquote {
 			font-size: 75%;
-			margin: 8px 0 0 3px;
-			padding-left: 16px;
+			margin: $margin-s 0 0 3px;
+			padding-left: $margin-l;
 			border-left: 3px solid #9e9e9e;
 		}
 		@media screen and (max-width: $breakpoint) {
@@ -24,7 +24,7 @@
   		&:after {
 			content: "+"; 
 			float: left;
-			margin-right: 8px;
+			margin-right: $margin-s;
 		}
 		
 	}

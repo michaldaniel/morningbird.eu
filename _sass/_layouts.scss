@@ -1,14 +1,14 @@
 .col {
 	display: block;
 	float: left;
-	margin: 16px 0 16px 32px;
+	margin: $margin-l 0 $margin-l $margin-xxl;
 
 	&:first-child {
 		margin-left: 0;
 	}
 
 	@media only screen and (max-width: $breakpoint) {
-		margin: 8px 0 8px 0;
+		margin: $margin-s 0 $margin-s 0;
 	}
 }
 
@@ -34,7 +34,7 @@
 }
 
 .span_1_of_2 {
-	width: calc(50% - 32px);
+	width: calc(50% - #{$margin-xxl});
 
 	@media only screen and (max-width: $breakpoint) {
 		width: 100%;
@@ -42,10 +42,10 @@
 }
 
 .span_1_smaller_of_2 {
-	width: 32px;
+	width: $margin-xxl;
 
 	img {
-		max-width: 32px;
+		max-width: $margin-xxl;
 	}
 
 	@media only screen and (max-width: $breakpoint) {
@@ -54,7 +54,7 @@
 }
 
 .span_1_bigger_of_2 {
-	width: calc(100% - 64px);
+	width: calc(100% - (#{$margin-xxl} * 2));
 
 	@media only screen and (max-width: $breakpoint) {
 		width: 100%;
@@ -62,10 +62,10 @@
 }
 
 .span_2_smaller_of_2 {
-	width: 32px;
+	width: $margin-xxl;
 
 	img {
-		max-width: 32px;
+		max-width: $margin-xxl;
 	}
 
 	@media only screen and (max-width: $breakpoint) {
@@ -75,7 +75,7 @@
 
 
 .span_2_bigger_of_2 {
-	width: calc(100% - 64px);
+	width: calc(100% - (#{$margin-xxl} * 2));
 
 	@media only screen and (max-width: $breakpoint) {
 		width: 100%;

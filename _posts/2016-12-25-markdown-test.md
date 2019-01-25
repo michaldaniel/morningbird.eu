@@ -42,9 +42,11 @@ Lorem ipsum dolor sit amet, [test link](#) adipiscing elit. **This is strong.** 
 
 ## 3. Images
 
-![Large example image](http://placehold.it/800x400 "Large example image")
-![Medium example image](http://placehold.it/400x200 "Medium example image")
-![Small example image](http://placehold.it/200x200 "Small example image")
+![Large example image](https://placehold.it/800x400 "Large example image")
+
+![Medium example image](https://placehold.it/400x200 "Medium example image")
+
+![Small example image](https://placehold.it/200x200 "Small example image")
 
 
 ## 4. Blockquotes

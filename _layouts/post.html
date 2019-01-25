@@ -45,6 +45,8 @@ layout: core
 
 <!-- END OF ATTRIBUTIONS -->
 
+{% if page.comments %}
+
 <hr class="codebreak">
 
 <!-- START OF COMMENTS -->
@@ -52,6 +54,11 @@ layout: core
 {% include comments.html %}
 
 <!-- END OF COMMENTS -->
+
+{% endif %}
+
+
+
 		
 		</div>
 	</footer>

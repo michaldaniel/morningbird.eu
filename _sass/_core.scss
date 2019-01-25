@@ -4,7 +4,7 @@ body {
 	font-family: 'Inconsolata', monospace;
 	line-height: 150%;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: $font-size;
 	letter-spacing: 0.04em;
 	overflow:auto;
 }
@@ -14,14 +14,15 @@ h1, h2, h3, h4 {
 }
 
 h2, h3, h4 {
-	margin-top: 32px;
-	margin-bottom: 16px;
+	margin-top: $margin-xxl;
+	margin-bottom: $margin-l;
 }
 
 h1 {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: $margin-l;
+	margin-bottom: $margin-l;
 	font-size: 180%;
+	line-height: 130%;
 	text-decoration: underline;
 }
 
@@ -43,10 +44,10 @@ b {
 }
 
 table {
-	margin: 16px 0;
+	margin: $margin-l 0;
 	tr {
 		td {
-			padding-right: 32px;
+			padding-right: $margin-xxl;
 			@media screen and (max-width: $breakpoint) {
 				display: flex-item;
 				flex: 0 1 auto;
@@ -68,8 +69,8 @@ table {
 }
 
 p {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: $margin-l;
+	margin-bottom: $margin-l;
 }
 
 a {
@@ -94,16 +95,16 @@ a {
 ul {
 	list-style: none;
 	li {
-		padding: 4px;
-		padding-left: 8px;
+		padding: $margin-xs;
+		padding-left: $margin-s;
 		@media screen and (max-width: $breakpoint) {
-			padding: 8px 0 18px 0;
+			padding: $margin-s 0 $margin-l 0;
 		}
 	}
 }
 
 hr {
-	margin: 16px 0;
+	margin: $margin-l 0;
 	border: 0;
 	border-bottom: 1px dashed $color-light-grey;
 }
@@ -136,6 +137,12 @@ section {
 	}
 }
 
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .collapsed {
 	display: none;
 }
@@ -164,11 +171,11 @@ section {
 .wrapper {
    	max-width: $page-size;
 	width: auto;
-	padding: 0 32px;
+	padding: 0 $margin-xxl;
 	margin-left: auto;
 	margin-right: auto;
 	@media screen and (max-width: $breakpoint) {
 		max-width: 100%;
-		padding: 0 24px;
+		padding: 0 $margin-xl;
 	}
 }

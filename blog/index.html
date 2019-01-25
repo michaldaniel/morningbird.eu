@@ -2,22 +2,24 @@
 layout: core
 ---
 
-<div class="blog">
-	<a href="/">&lt;-- home</a>
-	<p>Welcome to my blog. It's updated irregularly and very personal, there is little to no cohesion to discussed topics. Please feel free to <a href="/">contact me</a> about any corrections and general feedback.</p>
-	<p>I hope you manage to find something interesting.</p>
-	<h2>Blog posts:</h2>
-	<table>
-		<tbody>
-			<!-- Blog post elements -->{% for post in site.posts %}
-			<tr>
-				<td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
-				<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-			</tr>{% endfor %}
-		</tbody>
-	</table>
-	<div class="post__footer">
+<section class="blog">
+	<div class="wrapper">
+		{% include goback.html %}
+		<h2>My personal blog</h2>
+	    <p>Welcome to my blog. It's updated irregularly and very personal, there is little to no cohesion to discussed topics. Please feel free to <a href="/">contact me</a> about any corrections and general feedback.</p>
+	    <p>I hope you manage to find something interesting.</p>
+	    <h2>Blog posts:</h2>
+	    <table>
+		    <tbody>
+			    <!-- Blog post elements -->{% for post in site.posts %}
+			    <tr>
+				    <td class="grey">{{ post.date | date: '%Y %b %d' }}</td>
+				    <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+			    </tr>{% endfor %}
+		    </tbody>
+	    </table>
+	<footer>
 		<hr class="codebreak">
 		{% include attribution.html %}
-	</div>
-</div>
+	</footer>
+</section>

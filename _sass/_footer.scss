@@ -1,5 +1,5 @@
 footer {
-	margin-bottom: 16px;
+	margin-bottom: $margin-l;
 	font-size: 75%;
 	line-height: 100%;
 	overflow: auto;
@@ -20,6 +20,6 @@ footer {
 	
 	.link {
 		margin-top: 0;
-		margin-bottom: 8px;
+		margin-bottom: $margin-s;
 	}
 }

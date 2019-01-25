@@ -2,8 +2,8 @@
 	h1 {
 		font-size: 250%;
 		text-align: center;
-		margin-bottom: 64px;
-		margin-top: 0px;
+		margin-bottom: $margin-america;
+		margin-top: 0;
 	}
 	
 	h1 { 
@@ -17,8 +17,8 @@
 			&:hover {
 				color: $color-link;
 				text-decoration: underline;
-				padding-bottom: 0px;
-				border-bottom: 0px;
+				padding-bottom: 0;
+				border-bottom: 0;
 			}
 			&:active {
 				color: $color-dark-grey;

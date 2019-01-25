@@ -1,8 +1,8 @@
 #cookie_warning {
 	line-height: 150%;
 	border: 1px solid $color-warning;
-	padding: 8px 16px;
-	margin-bottom: 16px;
+	padding: $margin-s $margin-m;
+	margin-bottom: $margin-m;
 	font-size: 90%;
 
 	.cookie_message {
