@@ -1,0 +1,53 @@
+---
+---
+
+@import "reset";
+@import "fonts";
+@import "config";
+@import "core";
+
+html {
+	background: url(bg.gif);
+	background-repeat: repeat;
+}
+
+body {
+	background: none;
+	color: $color-white;
+}
+
+.center {
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	animation: chroab 400ms ease-in both;
+	color: $color-white;
+}
+
+img {
+	display: inline-block;
+}
+
+a {
+	&:hover {
+		border: 0;
+		padding: 0;
+	}
+}
+
+@keyframes chroab {
+	0% {
+		text-shadow: 0 0 #a50610, 0 0 #0c2aa8, 0 6px 0 transparent, 8px 0 0 transparent;
+	}
+	100% {
+		text-shadow: 0.06ex 0 #a50610, -0.06ex 0 #0c2aa8, 0 0.14ex 0 rgba(0, 0, 0, 0.8), 0.12ex 0 0 rgba(0, 0, 0, 0.8);
+	}
+}
+
+
+

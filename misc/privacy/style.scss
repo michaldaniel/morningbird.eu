@@ -1,0 +1,41 @@
+---
+---
+
+@import "reset";
+@import "fonts";
+@import "config";
+@import "core";
+
+.center {
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 260%;
+	text-decoration: none;
+}
+
+#link {
+	margin: 0 30px 0 30px
+}
+
+#box {
+	width: 100px;
+	height: 100px;
+	background: #424242;
+	position: absolute;
+	left: -90px;
+	top: -50px;
+}
+
+a {
+	&:hover {
+		border: 0;
+		padding: 0;
+	}
+}
+

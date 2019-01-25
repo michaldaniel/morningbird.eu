@@ -2,28 +2,6 @@
 	ul {
 		padding: 0;
 		
-		@media (min-width: $breakpoint-small) {
-			margin: 24px -6px -12px -6px;
-			
-			@include clearfix;
-
-			li {
-				float: left;
-				width: 50%;
-			}
-
-			a {
-				padding: 0 6px;
-			}
-		}
-
-		@media (min-width: $breakpoint-medium) {
-			li {
-				width: 33.33333%;
-			}
-		}
-
-	
 		li {
 			margin-bottom: 12px;
 			padding: 0;
@@ -35,7 +13,9 @@
 
 		a {
 			display: block;
-
+			padding: 0;
+			border: 0;
+			
 			&:hover {
 				.img-wrapper {
 					&:before {
@@ -45,8 +25,8 @@
 						opacity: .45;
 					}
 				}
+				padding: 0;
 				border: 0;
-				
 			}
 		}
 
@@ -100,6 +80,31 @@
 			font-weight: 400;
 			font-size: 110%;
 			margin: 0 0 8px;
+		}
+		
+		@media (min-width: $breakpoint-small) {
+			margin: 24px -6px -12px -6px;
+			
+			@include clearfix;
+
+			li {
+				float: left;
+				width: 50%;
+			}
+
+			a {
+				padding: 0 6px;
+				
+				&:hover {
+					padding:  0 6px;
+				}
+			}
+		}
+
+		@media (min-width: $breakpoint-medium) {
+			li {
+				width: 33.33333%;
+			}
 		}
 	}
 }

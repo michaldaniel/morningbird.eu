@@ -1,12 +1,10 @@
-html {
-	color: #424242;
-	background-color: #fefefe;
-	font-family: serif;
-}
+---
+---
 
-body {
-
-}
+@import "reset";
+@import "fonts";
+@import "config";
+@import "core";
 
 .bg {
 	background: url(hello.gif);
@@ -17,9 +15,5 @@ body {
 	top: 5%;
 	display: block;
 	height: 90%;
-	outline: 10px solid black;
-}
-
-a.bg {
-	display: block;
+	outline: 10px solid black;	
 }
