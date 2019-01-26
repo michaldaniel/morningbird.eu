@@ -1,9 +1,13 @@
 <section class="header">
 	<div class="wrapper">
 		<div class="logo">
-			<a href="/">
-				<img id="logo" src="/assets/img/bird.gif" alt="Bird flapping wings" width="400" height="400">
-				<img id="logo-on-hover" src="/assets/img/bird-fast.gif" alt="Bird flapping wings very fast" width="400" height="400" />
+			<a href="{{ include.url }}">
+				{% if include.alt-logo %}
+				<img id="logo" src="{{ include.logo }}" alt="{{ include.description }}" width="{{ include.width }}" height="{{ include.height }}" style="max-wdith: {{ include.width }}px; max-height: {{ include.height }}px;">
+				<img id="logo-on-hover" src="{{ include.alt-logo }}" alt="{{ include.alt-descrition }}" width="{{ include.width }}" height="{{ include.height }}" style="max-wdith: {{ include.width }}px; max-height: {{ include.height }}px;"/>
+				{% else %}
+				<img src="{{ include.logo }}" alt="{{ include.description }}" width="{{ include.width }}" height="{{ include.height }}" style="max-wdith: {{ include.width }}px; max-height: {{ include.height }}px;">
+				{% endif %}
 			</a>
 		</div>
 	</div>

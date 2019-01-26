@@ -1,0 +1,25 @@
+.promo {
+
+	text-align: center;
+	padding: $margin-xxxl 0;
+	
+	h1 {
+		text-decoration: none;
+	}
+	
+	.badges {
+	
+		margin-top: $margin-xxxl;
+	
+		a {
+			&:hover {
+				border: 0;
+				padding: 0;
+			}
+		}
+		
+		img {
+			max-height: 48px;
+		}
+	}
+}

@@ -50,69 +50,6 @@
 			text-decoration: none;
 		}
 		
-		p {
-			font-size: 100%;
-			line-height: 150%;
-			text-align: justify;
-		}
-	
-		strong {
-			font-weight: 700;
-		}
-		
-		em {
-			letter-spacing: 0.2em;
-		}
-		
-		sup {
-		    position: relative;
-		    top: -0.5em;
-		    font-size: 75%;
-		}
-		
-		sub {
-		    position: relative;
-		    top: 0.25em;
-		    font-size: 75%;
-		}
-		
-		ul, ol {
-			font-size: 100%;
-			margin-left: $margin-xxl;
-			margin-top: (-$margin-s);
-			margin-bottom: $margin-l;
-			li {
-				padding: $margin-xs;
-				padding-left: $margin-xs;
-				@media screen and (max-width: $breakpoint) {
-					padding: $margin-s 0 $margin-s 0;
-				}
-			}
-			@media screen and (max-width: $breakpoint) {
-				margin-left: $margin-xl;
-			}
-		}
-		
-		ul {
-			list-style: circle;
-		}
-		
-		ol {
-		    list-style: decimal; 
-		}
-		
-		dl {
-		    dt {
-		        font-weight: bold;
-		    }
-		    dd {
-		        margin-top: $margin-xs;
-			    margin-bottom: $margin-xs;
-		        padding: $margin-xs $margin-s;
-		        border-left: 3px solid #9e9e9e;
-		    }
-		}
-		
 		img {
 			max-width: 100%;
 			max-height: 100%;
@@ -121,24 +58,6 @@
 			margin-top: $margin-xxl;
 			margin-bottom: $margin-xxl;
 			display: block;
-		}
-		
-		mark {
-		    background: $color-highlight;
-		}
-	
-		code {
-			font-size: 90%;
-			background: $color-code-background;
-		}
-		
-		blockquote {
-			padding-left: $margin-l;
-			border-left: 3px solid #9e9e9e;
-		}
-		
-		u {
-		    text-decoration: underline;
 		}
 
 		table {

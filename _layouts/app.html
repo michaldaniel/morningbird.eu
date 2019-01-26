@@ -7,6 +7,7 @@
 {% include head.html %}
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="stylesheet" type="text/css" href="/assets/css/main.css?v=3.0">
+<link rel="stylesheet" type="text/css" href="/assets/css/app.css?v=1.0">
 
 </head>
 
@@ -22,7 +23,92 @@
 
 <main class="main">
 
+<section class="promo">
+	{% capture header_url %}
+	{{ page.app.url }}
+	{% endcapture %}
+	{% capture header_logo %}
+	{{ page.app.logo }}
+	{% endcapture %}
+	{% capture header_description %}
+	{{ page.app.name }} logo
+	{% endcapture %}
+	{% include header.html url=header_url logo=header_logo description=header_description height="256" width="256" %}
+	<div class="wrapper">
+		<h1>{{ page.app.name }}</h1>
+		<h2>{{ page.app.slogan }}</h2>
+		<div class="badges">
+		{% for item in page.app.downloads %}
+			{% if item.badge %}
+				<a href="{{ item.url }}"><img src="{{ item.badge }}" alt="{{ item.name }}"></a>
+			{% endif %}
+		{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="screenshots">
+	<div class="wrapper flex">
+		{% for item in page.app.screenshots %}
+		<img src="{{ item.url }}" alt="{{ item.description }}"/>
+		{% endfor %}
+	</div>
+</section>
+
+<section class="content">
+	<div class="wrapper">
+		<h2>What is it?</h2>
+		
 {{ content }}
+		
+	</div>
+</section>
+
+<section>
+	<div class="wrapper">
+		<h2>Get it now</h2>
+		<ul>
+			{% for item in page.app.downloads %}
+			<li>
+				<a href="{{ item.url }}">{{ item.name }}</a>
+			</li>{% endfor %}
+
+		</table>
+	</div>
+</section>
+
+<section>
+	<div class="wrapper">
+		<h2>Support</h2>
+		<div class="no-head">
+			{% for item in page.app.support %}
+			<h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
+			<p>{{ item.description }}</p>
+			{% endfor %}
+		</div>
+		</table>
+	</div>
+</section>
+
+{% include about.html %}
+
+{% include contact.html %}
+
+{% include apps.html %}
+
+<section>
+	<div class="wrapper">
+		<h2>Legal stuff</h2>
+		<ul>
+			{% for item in page.app.legals %}
+			<li>
+				<a href="{{ item.url }}">{{ item.name }}</a>
+			</li>{% endfor %}
+
+		</ul>
+		<footer>{{page.app.copyright}}–{{ site.time | date: '%y' }}</footer>
+	</div>
+</section>
 
 </main>
 
@@ -33,6 +119,26 @@
 {% include footer.html %}
 
 <!-- END OF FOOTER -->
+
+<!-- START OF CUSTOM PAGE CSS -->
+
+{% if page.app.color %}
+<style>
+	.promo {
+		background: #{{ page.app.color }} !important;
+	}
+</style>
+{% endif %}
+
+{% if page.app.topbar-color %}
+<style>
+	.topbar {
+		background: #{{ page.app.topbar-color }} !important;
+	}
+</style>
+{% endif %}
+
+<!-- END OF CUSTOM PAGE CSS -->
 
 <!-- START OF SCRIPTS -->
 

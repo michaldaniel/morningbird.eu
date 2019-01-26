@@ -1,0 +1,44 @@
+[English]
+
+Promo:
+
+Make a perfect cup of 🍵 every time.
+
+Long promo: 
+
+Steeping instructions for a perfect cup of 🍵 every time.
+
+Description:
+
+Simple application listing instructions for steeping different tea types. Includes guides for temperature 🌡, steeping time 🕰, and good practices. It also lets you quickly setup an appropriate timer ⏲ in system default stopwatch app. Supports both Fahrenheit and Celsius units. 
+
+Long description:
+
+Simple application listing instructions for steeping different tea types. Includes guides for temperature 🌡, steeping time 🕰, and good practices. It also lets you quickly setup an appropriate timer ⏲ in system default stopwatch app. Supports both Fahrenheit and Celsius units.
+
+I plan to add support for Wear OS smart watches soon ⌚️.
+
+Contact me directly if you have any questions, suggestions or general feedback 📬. More contact information can be found at my personal website - https://morningbird.eu. 
+
+I read every review to make it better 😘. If you are a tea lover too, please leave a ⭐️⭐️⭐️⭐️⭐️ rating.
+
+
+[Polski]
+
+Promo:
+
+Long promo:
+
+Description:
+
+Prosta aplikacja z instrukcjami parzenia dla różnych rodzajów herbaty. Zawiera wskazówki dla temperatury 🌡, czasu 🕰 i dobrych praktyk parzenia herbat. Pozwala również szybko ustawić minutnik ⏲ z właściwym czasem w domyślnej systemowej aplikacji stopera. Wspiera zarówno jednostki Celsjusza, jak i Fahrenheita.
+
+Long description:
+
+Prosta aplikacja z instrukcjami parzenia dla różnych rodzajów herbaty. Zawiera wskazówki dla temperatury 🌡, czasu 🕰 i dobrych praktyk parzenia herbat. Pozwala również szybko ustawić minutnik ⏲ z właściwym czasem w domyślnej systemowej aplikacji stopera. Wspiera zarówno jednostki Celsjusza, jak i Fahrenheita.
+
+Niedługo planuję dodać również wsparcie smart zegarków Wear OS ⌚️.
+
+W przypadku pytań, sugestii lub ogólnych uwag skontaktuj się ze mną bezpośrednio 📬. Więcej informacji jak to zrobić można znaleźć na mojej stronie osobistej - https://morningbird.eu.
+
+Czytam wszystkie recenzje, by ulepszyć aplikację 😘. Jeśli też kochasz herbatę zostaw ⭐️⭐️⭐️⭐️⭐️ ocenę.

@@ -9,7 +9,6 @@ layout: null
 		<link>{{ site.url }}</link>
 		<language>en-us</language>
 		<copyright>{{ site.time | date: '%y' }} Michał Daniel as. Creative Commons Attribution 4.0 license.</copyright>
-
 	<image>
 		<url>{{ "/assets/img/bird.gif" | prepend: site.url }}</url>
 		<title>Michał Daniel - blog</title>
