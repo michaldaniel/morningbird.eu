@@ -1,0 +1,20 @@
+{
+    "name": "morningbird.eu",
+    "short_name": "morningbird.eu",
+    "icons": [
+        {
+            "src": "/assets/img/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fefefe",
+    "background_color": "#fefefe",
+    "start_url": "https://morningbird.eu",
+    "display": "standalone"
+}
