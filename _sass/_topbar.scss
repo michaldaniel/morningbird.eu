@@ -1,8 +1,13 @@
 .topbar {
+	position: fixed;
+	top: 0;
 	width: 100%;
-	height: $topbar-size; //48px
+	height: $topbar-size;
+	background: darken($color-white, 3%);
+	z-index: 9;
 	
 	img {
+		float: left;
 		height: ($topbar-size/2);
 		margin: ($topbar-size/4) ($topbar-size/4) ($topbar-size/4) 0;
 	}
@@ -22,3 +27,8 @@
 		}
 	}
 }
+
+.main {
+	padding-top: $topbar-size;
+}
+

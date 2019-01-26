@@ -1,5 +1,5 @@
 ---
-layout: whats-on-my
+layout: content
 title: What's on my mind?
 description: Ideas that float around my head
 ---

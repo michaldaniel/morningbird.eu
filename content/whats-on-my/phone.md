@@ -1,5 +1,5 @@
 ---
-layout: whats-on-my
+layout: content
 title: What's on my phone?
 description: Apps and setup
 ---

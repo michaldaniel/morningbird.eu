@@ -1,8 +1,8 @@
 body {
 	color: $color-dark-grey;
 	background: $color-white;
-	font-family: 'Inconsolata', monospace;
-	line-height: 150%;
+	font-family: $body-font;
+	line-height: 180%;
 	font-weight: 400;
 	font-size: $font-size;
 	letter-spacing: 0.04em;
@@ -106,7 +106,7 @@ ul {
 hr {
 	margin: $margin-l 0;
 	border: 0;
-	border-bottom: 1px dashed $color-light-grey;
+	border-bottom: 1px solid darken($color-white, 5%);
 }
 
 section {
@@ -166,6 +166,12 @@ section {
 		}
 	}
 	
+}
+
+.justify {
+	p {
+		text-align: justify;
+	}
 }
 
 .wrapper {

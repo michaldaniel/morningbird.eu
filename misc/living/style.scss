@@ -27,6 +27,10 @@ body {
 h1 {
 	animation: chroab 400ms ease-in both;
 	color: $color-white;
+	font-family: $code-font;
+	text-decoration: none;
+	boder: 0;
+	padding: 0;
 }
 
 img {

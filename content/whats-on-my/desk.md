@@ -1,5 +1,5 @@
 ---
-layout: whats-on-my
+layout: content
 title: What's on my desk?
 description: My empire of dust
 ---

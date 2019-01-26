@@ -1,5 +1,5 @@
 ---
-layout: whats-on-my
+layout: content
 title: What's on my PC?
 description: Theme, icons, dotfiles and apps
 ---
