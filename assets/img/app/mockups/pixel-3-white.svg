@@ -5,18 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 1386 2790"
-   width="1386"
-   height="2790"
-   version="1.1"
    id="svg22"
-   sodipodi:docname="Pixel 3 White FRONT.svg"
-   inkscape:export-filename="/home/morningbird/Pobrane/Pixel 3 White FRONT.svg.png"
-   inkscape:export-xdpi="50.175228"
-   inkscape:export-ydpi="50.175228"
-   inkscape:version="0.92.4 (unknown)">
+   version="1.1"
+   height="2790"
+   width="1386"
+   viewBox="0 0 1386 2790">
   <metadata
      id="metadata26">
     <rdf:RDF>
@@ -25,37 +18,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     id="namedview24"
-     showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-452.3942"
-     inkscape:cy="2033.6861"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg22" />
   <defs
      id="defs5">
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="cp1">
+       id="cp1"
+       clipPathUnits="userSpaceOnUse">
       <path
-         d="M130,278v2162c0,25.99 21.01,47 47,47h1031c25.99,0 47,-21.01 47,-47v-2162c0,-25.99 -21.01,-47 -47,-47h-1031c-25.99,0 -47,21.01 -47,47z"
-         id="path2" />
+         id="path2"
+         d="M130,278v2162c0,25.99 21.01,47 47,47h1031c25.99,0 47,-21.01 47,-47v-2162c0,-25.99 -21.01,-47 -47,-47h-1031c-25.99,0 -47,21.01 -47,47z" />
     </clipPath>
   </defs>
   <style
@@ -70,59 +44,51 @@
 		.shp6 { fill: #4c4c4c } 
 	</style>
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 1307,976 v 370 0 h 11 c 2.77,0 5,-2.23 5,-5 V 981 c 0,-2.76 -2.23,-5 -5,-5 z"
+     id="Volume Button"
      class="shp0"
-     id="Volume Button" />
+     d="m 1307,976 v 370 0 h 11 c 2.77,0 5,-2.23 5,-5 V 981 c 0,-2.76 -2.23,-5 -5,-5 z"
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
-     d="m 1307,595 v 190 0 h 11 c 2.77,0 5,-2.23 5,-5 V 600 c 0,-2.76 -2.23,-5 -5,-5 z"
+     id="Power Button"
      class="shp1"
-     id="Power Button" />
+     d="m 1307,595 v 190 0 h 11 c 2.77,0 5,-2.23 5,-5 V 600 c 0,-2.76 -2.23,-5 -5,-5 z"
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#ffffff;fill-opacity:1;stroke:#eeeeee;stroke-opacity:1;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
+     id="Handset"
      d="M 227 29 C 145.16 29 79 95.16 79 177 L 79 2513 C 79 2594.84 145.16 2661 227 2661 L 1159 2661 C 1240.84 2661 1307 2594.84 1307 2513 L 1307 177 C 1307 95.16 1240.84 29 1159 29 L 227 29 z M 177 231 L 1208 231 C 1233.99 231 1255 252.01 1255 278 L 1255 2440 C 1255 2465.99 1233.99 2487 1208 2487 L 177 2487 C 151.01 2487 130 2465.99 130 2440 L 130 278 C 130 252.01 151.01 231 177 231 z "
-     id="Handset" />
+     style="fill:#ffffff;fill-opacity:1;stroke:#eeeeee;stroke-opacity:1;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;opacity:1" />
   <g
-     clip-path="url(#cp1)"
-     id="Mask by Mask">
+     id="Mask by Mask"
+     clip-path="url(#cp1)">
     <path
-       style="fill:#ebebeb;stroke:#979797"
-       inkscape:connector-curvature="0"
-       d="m 1324.1,982 h -1 v 3 h 1 z"
+       id="Path Copy"
        class="shp4"
-       id="Path Copy" />
+       d="m 1324.1,982 h -1 v 3 h 1 z"
+       style="fill:#ebebeb;stroke:#979797" />
   </g>
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
+     id="Camera 2"
+     class="shp5"
      d="m 442.5,155 c 10.77,0 19.5,-8.73 19.5,-19.5 0,-10.77 -8.73,-19.5 -19.5,-19.5 -10.77,0 -19.5,8.73 -19.5,19.5 0,10.77 8.73,19.5 19.5,19.5 z"
-     class="shp5"
-     id="Camera 2" />
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
+     id="Camera 1"
+     class="shp5"
      d="m 332,166 c 17.12,0 31,-13.88 31,-31 0,-17.12 -13.88,-31 -31,-31 -17.12,0 -31,13.88 -31,31 0,17.12 13.88,31 31,31 z"
-     class="shp5"
-     id="Camera 1" />
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
+     id="Rectangle"
+     class="shp5"
      d="m 548,118 v 7 c 0,6.08 4.92,11 11,11 h 267 c 6.08,0 11,-4.92 11,-11 v -7 c 0,-6.08 -4.92,-11 -11,-11 H 559 c -6.08,0 -11,4.92 -11,11 z"
-     class="shp5"
-     id="Rectangle" />
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#d4d4d4;fill-opacity:1"
-     inkscape:connector-curvature="0"
+     id="path18"
+     class="shp5"
      d="m 548,2574 v 7 c 0,6.08 4.92,11 11,11 h 267 c 6.08,0 11,-4.92 11,-11 v -7 c 0,-6.08 -4.92,-11 -11,-11 H 559 c -6.08,0 -11,4.92 -11,11 z"
-     class="shp5"
-     id="path18" />
+     style="fill:#d4d4d4;fill-opacity:1" />
   <path
-     style="fill:#7d7d7d;fill-opacity:0.63501483"
-     inkscape:connector-curvature="0"
-     d="m 656,2433 v 7 c 0,6.08 4.92,11 11,11 h 51 c 6.08,0 11,-4.92 11,-11 v -7 c 0,-6.08 -4.92,-11 -11,-11 h -51 c -6.08,0 -11,4.92 -11,11 z"
+     id="Rectangle Copy"
      class="shp6"
-     id="Rectangle Copy" />
+     d="m 656,2433 v 7 c 0,6.08 4.92,11 11,11 h 51 c 6.08,0 11,-4.92 11,-11 v -7 c 0,-6.08 -4.92,-11 -11,-11 h -51 c -6.08,0 -11,4.92 -11,11 z"
+     style="fill:#7d7d7d;fill-opacity:0.63501483" />
 </svg>

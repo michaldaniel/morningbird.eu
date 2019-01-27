@@ -12,6 +12,7 @@
 		
 		.flex-child {
 			width: calc(100% * (1/3) - (#{ $margin-l } * 2));
+		    height: 100%;
 			margin: $margin-l auto $margin-l auto;
 			display: block;
 			

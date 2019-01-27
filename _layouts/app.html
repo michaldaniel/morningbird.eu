@@ -50,7 +50,7 @@
 <section class="screenshots">
 	<div class="wrapper flex">
 		{% for item in page.app.screenshots %}
-		<img src="{{ item.url }}" alt="{{ item.description }}"/>
+		<img class="flex-child" src="{{ item.url }}" alt="{{ item.description }}"/>
 		{% endfor %}
 	</div>
 </section>
