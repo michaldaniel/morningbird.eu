@@ -18,8 +18,8 @@
 <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
 {% if page.promo %}
 <meta property="og:image" content="{{ page.promo.url | prepend: site.url }}" />
-<meta property="og:image:width" content="{{ page.promo.url.width }}" />
-<meta property="og:image:height" content="{{ page.promo.url.height }}" />
+<meta property="og:image:width" content="{{ page.promo.width }}" />
+<meta property="og:image:height" content="{{ page.promo.height }}" />
 {% else %}
 <meta property="og:image" content="{{ site.promo | prepend: site.url }}" />
 <meta property="og:image:width" content="512" />
