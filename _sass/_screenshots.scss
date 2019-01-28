@@ -1,6 +1,7 @@
 .screenshots {
 		.wrapper {
 			padding: 0 $margin-xxl;
+			margin-top: -128px;
 			width: calc(100% -(#{ $margin-xxl } * 2));
 			max-width: ($page-size*1.2);
 			
