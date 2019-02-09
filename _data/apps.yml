@@ -2,4 +2,8 @@
     logo: /assets/img/app/teasteeping/promo.png
     url: /app/teasteeping
     type: Andrid application
+-   title: Czy handlowa?
+    logo: /assets/img/app/czyhandlowa/promo.png
+    url: /app/czyhandlowa
+    type: Andrid application
 
