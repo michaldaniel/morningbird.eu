@@ -83,6 +83,8 @@
 			margin: 0 0 $margin-xl;
 		}
 		
+		margin: 0;
+		
 		@media (min-width: $breakpoint-small) {
 			margin: $margin-xl (-$margin-aps) (-$margin-m) (-$margin-aps);
 			
