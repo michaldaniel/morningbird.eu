@@ -3,7 +3,7 @@
  * @licstart  The following is the entire license notice for the
  *  JavaScript code in this page.
  *
- * Copyright (C) 2017 Michał Daniel
+ * Copyright (C) {{ 'now' | date: "%Y" }} {{ site.author.name }}
  *
  *
  * The JavaScript code in this page is free software: you can

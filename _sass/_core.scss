@@ -252,3 +252,9 @@ u {
 		padding: 0 $margin-xl;
 	}
 }
+
+pre, code, .monospace {
+    font-family: $code-font;
+	line-height: 100%;
+	letter-spacing: 0em;
+}

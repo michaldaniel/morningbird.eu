@@ -4,14 +4,14 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Michał Daniel - blog</title>
+		<title>{{ site.author.name }} - blog</title>
 		<description>My personal blog centered around software development, system administration and issues of privacy and security.</description>
 		<link>{{ site.url }}</link>
 		<language>en-us</language>
-		<copyright>{{ site.time | date: '%y' }} Michał Daniel as. Creative Commons Attribution 4.0 license.</copyright>
+		<copyright>{{ site.time | date: '%y' }} {{ site.author.name }} as. Creative Commons Attribution 4.0 license.</copyright>
 	<image>
 		<url>{{ "/assets/img/bird.gif" | prepend: site.url }}</url>
-		<title>Michał Daniel - blog</title>
+		<title>{{ site.author.name }} - blog</title>
 		<link>{{ site.url }}</link>
 	</image>
 	{% for post in site.posts %}
