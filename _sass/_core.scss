@@ -107,7 +107,7 @@ section {
 	margin: 0;
 }
 
-strong {
+strong bold .bold {
 	font-weight: 700;
 }
 
@@ -263,4 +263,8 @@ pre, code, .monospace {
 	p {
 		font-size: 150%;
 	}
+}
+
+.accent {
+    color: $color-accent;
 }
