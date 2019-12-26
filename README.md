@@ -1,5 +1,5 @@
 # morningbird.eu
-My personal website made with [jekyll](http://jekyllrb.com).
+My personal website made with [jekyll](http://jekyllrb.com). See it live at https://morningbird.eu
 
 ### License and usage
 
