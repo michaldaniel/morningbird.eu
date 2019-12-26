@@ -6,4 +6,7 @@
     logo: /assets/img/app/czyhandlowa/promo.png
     url: /app/czyhandlowa
     type: Andrid application
-
+-   title: Storytelling Engine
+    logo: /assets/img/app/storytellingengine/promo.png
+    url: /app/storytellingengine
+    type: Andrid application
