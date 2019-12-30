@@ -10,3 +10,7 @@
     logo: /assets/img/app/storytellingengine/promo.png
     url: /app/storytellingengine
     type: Andrid application
+-   title: Button Calendar
+    logo: /assets/img/app/buttoncalendar/promo.png
+    url: /app/buttoncalendar
+    type: Andrid application
